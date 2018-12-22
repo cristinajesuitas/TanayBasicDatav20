@@ -1,0 +1,181 @@
+﻿[CAPI QUESTIONS]
+Version=CSPro 7.1
+
+[LANGUAGES]
+EN=English
+
+[QUESTION]
+Field=TBD_MENU_DICT.ASSIGNMENT_SELECTION
+EN={\rtf1\ansi\ansicpg1252\deff0\nouicompat\deflang13321{\fonttbl{\f0\fnil\fcharset0 Arial;}}
+EN={\colortbl ;\red0\green0\blue0;}
+EN={\*\generator Riched20 10.0.17134}\viewkind4\uc1
+EN=\pard\cf1\fs24\lang1033 You are logged in as %capi_staff_role% \b %capi_staff_name%\b0 .\par
+EN=\par
+EN=Select the area you want to work in now.\par
+EN=
+EN=\pard\par
+EN=}
+
+[QUESTION]
+Field=TBD_MENU_DICT.INTERVIEWER_CODE
+EN={\rtf1\ansi\ansicpg1252\deff0\nouicompat\deflang13321{\fonttbl{\f0\fnil\fcharset0 Arial;}}
+EN={\colortbl ;\red0\green0\blue0;}
+EN={\*\generator Riched20 10.0.17134}\viewkind4\uc1
+EN=\pard\cf1\fs24\lang1033 Select the interviewer to assign an EA to.\lang13321\par
+EN=}
+
+[QUESTION]
+Field=TBD_MENU_DICT.INTERVIEWER_EA
+EN={\rtf1\ansi\ansicpg1252\deff0\nouicompat\deflang13321{\fonttbl{\f0\fnil\fcharset0 Arial;}}
+EN={\colortbl ;\red0\green0\blue0;}
+EN={\*\generator Riched20 10.0.17134}\viewkind4\uc1
+EN=\pard\cf1\fs24\lang1033 Select EA to assign to \b %capi_manage_staff_name%\b0 .\par
+EN=}
+
+[QUESTION]
+Field=TBD_MENU_DICT.INTERVIEWER_MENU
+EN={\rtf1\ansi\ansicpg1252\deff0\nouicompat\deflang13321{\fonttbl{\f0\fnil\fcharset0 Arial;}}
+EN={\colortbl ;\red0\green0\blue0;}
+EN={\*\generator Riched20 10.0.17134}\viewkind4\uc1
+EN=\pard\cf1\fs24\lang1033 You are logged in as Interviewer \b %capi_staff_name%\b0 . You are working in \b %capi_province_name%\b0  province / \b %capi_district_name%\b0  district / \b %capi_ea_name%\b0 . \par
+EN=\par
+EN=\b Household Status: %capi_household_complete_count%\b0  completed households. \b %capi_household_partial_count%\b0  partially completed households.\par
+EN=\par
+EN=Select applicable option.\par
+EN=
+EN=\pard\par
+EN=}
+
+[QUESTION]
+Field=TBD_MENU_DICT.LOGIN
+EN={\rtf1\ansi\ansicpg1252\deff0\nouicompat\deflang13321{\fonttbl{\f0\fnil\fcharset0 Arial;}}
+EN={\colortbl ;\red0\green0\blue0;}
+EN={\*\generator Riched20 10.0.17134}\viewkind4\uc1
+EN=\pard\cf1\fs24\lang1033 Welcome to Tanay Basic Data collection application (version %capi_publish_date%).\lang13321\par
+EN=}
+
+[QUESTION]
+Field=TBD_MENU_DICT.MANAGE_STAFF
+EN={\rtf1\ansi\ansicpg1252\deff0\nouicompat\deflang13321{\fonttbl{\f0\fnil\fcharset0 Arial;}}
+EN={\colortbl ;\red0\green0\blue0;}
+EN={\*\generator Riched20 10.0.17134}\viewkind4\uc1
+EN=\pard\cf1\fs24\lang1033 Select staff to manage or add new interviewer.\lang13321\par
+EN=}
+
+[QUESTION]
+Field=TBD_MENU_DICT.MANAGE_STAFF_MEMBER
+EN={\rtf1\ansi\ansicpg1252\deff0\nouicompat\deflang13321{\fonttbl{\f0\fnil\fcharset0 Arial;}}
+EN={\colortbl ;\red0\green0\blue0;}
+EN={\*\generator Riched20 10.0.17134}\viewkind4\uc1
+EN=\pard\cf1\fs24\lang1033 You are managing information about \b %capi_manage_staff_name%\b0 .\par
+EN=\par
+EN=Select applicable option.\par
+EN=
+EN=\pard\par
+EN=}
+
+[QUESTION]
+Field=TBD_MENU_DICT.MANAGE_STAFF_NAME
+EN={\rtf1\ansi\ansicpg1252\deff0\nouicompat\deflang13321{\fonttbl{\f0\fnil\fcharset0 Arial;}}
+EN={\colortbl ;\red0\green0\blue0;}
+EN={\*\generator Riched20 10.0.17134}\viewkind4\uc1
+EN=\pard\cf1\fs24\lang1033 Edit the name of \b %capi_manage_staff_name%\b0 .\par
+EN=}
+
+[QUESTION]
+Field=TBD_MENU_DICT.PIN_CODE_CONFIRMATION
+EN={\rtf1\ansi\ansicpg1252\deff0\nouicompat\deflang13321{\fonttbl{\f0\fnil\fcharset0 Arial;}}
+EN={\colortbl ;\red0\green0\blue0;}
+EN={\*\generator Riched20 10.0.17134}\viewkind4\uc1
+EN=\pard\cf1\fs24\lang1033 You are logged in as \b %capi_staff_name%\b0 .\par
+EN=\par
+EN=Please enter your pin code.\par
+EN=
+EN=\pard\par
+EN=}
+
+[QUESTION]
+Field=TBD_MENU_DICT.SUPERVISOR_ACCESS_PASSWORD
+EN={\rtf1\ansi\ansicpg1252\deff0\nouicompat\deflang13321{\fonttbl{\f0\fnil\fcharset0 Arial;}}
+EN={\colortbl ;\red0\green0\blue0;\red0\green0\blue255;}
+EN={\*\generator Riched20 10.0.17134}\viewkind4\uc1
+EN=\pard\cf1\fs24\lang1033 Please enter supervisor password you received from headquarters.\par
+EN=\par
+EN=\cf2 For first time login, pleas use password 123456.\cf1\par
+EN=\par
+EN=}
+
+[QUESTION]
+Field=TBD_MENU_DICT.SUPERVISOR_BARANGAY
+EN={\rtf1\ansi\ansicpg1252\deff0\nouicompat\deflang13321{\fonttbl{\f0\fnil\fcharset0 Arial;}}
+EN={\colortbl ;\red0\green0\blue0;}
+EN={\*\generator Riched20 10.0.17134}\viewkind4\uc1
+EN=\pard\cf1\fs24\lang1033 Select barangay of your assignment in \b %capi_municipal_name%\b0 , \b %capi_province_name%, \b0  \b %capi_region_name%\b0 .\par
+EN=}
+
+[QUESTION]
+Field=TBD_MENU_DICT.SUPERVISOR_MENU
+EN={\rtf1\ansi\ansicpg1252\deff0\nouicompat\deflang13321{\fonttbl{\f0\fnil\fcharset0 Arial;}}
+EN={\colortbl ;\red0\green0\blue0;}
+EN={\*\generator Riched20 10.0.17134}\viewkind4\uc1
+EN=\pard\cf1\fs24\lang1033 You are logged in as Supervisor \b %capi_staff_name%\b0 . You are working in \b %capi_region_name% \b0 / \b %capi_province_name%\b0  province / \b %capi_municipal_name%\b0  municipal / Barangay \b %capi_barangay_name%\b0 .\par
+EN=\par
+EN=\b EA Status:\b0  \b %capi_ea_assigned_count%\b0  assigned EAs.\par
+EN=\par
+EN=Select applicable option.\par
+EN=\par
+EN=}
+
+[QUESTION]
+Field=TBD_MENU_DICT.SUPERVISOR_MUNICIPAL
+EN={\rtf1\ansi\ansicpg1252\deff0\nouicompat\deflang13321{\fonttbl{\f0\fnil\fcharset0 Arial;}}
+EN={\colortbl ;\red0\green0\blue0;}
+EN={\*\generator Riched20 10.0.17134}\viewkind4\uc1
+EN=\pard\cf1\fs24\lang1033 Select municipal of your assignment in \b %capi_province_name%, \b0  \b %capi_region_name%\b0 .\par
+EN=}
+
+[QUESTION]
+Field=TBD_MENU_DICT.SUPERVISOR_NAME
+EN={\rtf1\ansi\ansicpg1252\deff0\nouicompat\deflang13321{\fonttbl{\f0\fnil\fcharset0 Arial;}}
+EN={\colortbl ;\red0\green0\blue0;}
+EN={\*\generator Riched20 10.0.17134}\viewkind4\uc1
+EN=\pard\cf1\fs24\lang1033 Please enter your full name (FN, MI, LN)\par
+EN=}
+
+[QUESTION]
+Field=TBD_MENU_DICT.SUPERVISOR_PIN_CODE
+EN={\rtf1\ansi\ansicpg1252\deff0\nouicompat\deflang13321{\fonttbl{\f0\fnil\fcharset0 Arial;}}
+EN={\colortbl ;\red0\green0\blue0;}
+EN={\*\generator Riched20 10.0.17134}\viewkind4\uc1
+EN=\pard\cf1\fs24\lang1033 Please create your pin code. \par
+EN=\par
+EN=A pin code is a six digit number that enables you to log into the Tanay Basic Data collection application. It is recommended to choose a number which you can easily remember and the code should be kept secret.\par
+EN=\par
+EN=
+EN=\pard\par
+EN=}
+
+[QUESTION]
+Field=TBD_MENU_DICT.SUPERVISOR_PROVINCE
+EN={\rtf1\ansi\ansicpg1252\deff0\nouicompat\deflang13321{\fonttbl{\f0\fnil\fcharset0 Arial;}}
+EN={\colortbl ;\red0\green0\blue0;}
+EN={\*\generator Riched20 10.0.17134}\viewkind4\uc1
+EN=\pard\cf1\fs24\lang1033 Select province of your assignment in \b %capi_region_name%\b0 .\par
+EN=}
+
+[QUESTION]
+Field=TBD_MENU_DICT.SUPERVISOR_REGION
+EN={\rtf1\ansi\ansicpg1252\deff0\nouicompat\deflang13321{\fonttbl{\f0\fnil\fcharset0 Arial;}}
+EN={\colortbl ;\red0\green0\blue0;}
+EN={\*\generator Riched20 10.0.17134}\viewkind4\uc1
+EN=\pard\cf1\fs24\lang1033 Select region of your assignment.\lang13321\par
+EN=}
+
+[QUESTION]
+Field=TBD_MENU_DICT.VIEW_ALL_HOUSEHOLDS
+EN={\rtf1\ansi\ansicpg1252\deff0\nouicompat\deflang13321{\fonttbl{\f0\fnil\fcharset0 Arial;}}
+EN={\colortbl ;\red0\green0\blue0;}
+EN={\*\generator Riched20 10.0.17134}\viewkind4\uc1
+EN=\pard\cf1\fs24\lang1033 Select the household you want to work on.\lang13321\par
+EN=}
+

@@ -1,0 +1,192 @@
+﻿[Dictionary]
+Version=CSPro 7.1
+Label=Tanay Basic Data Menu
+Name=TBD_MENU_DICT
+RecordTypeStart=1
+RecordTypeLen=1
+Positions=Relative
+ZeroFill=No
+DecimalChar=Yes
+
+[Level]
+Label=Menu Level
+Name=MENU_LEVEL
+
+[IdItems]
+
+[Item]
+Label=Menu identification
+Name=MENU_ID
+Start=2
+Len=1
+
+[Record]
+Label=Menu record
+Name=MENU_REC
+RecordTypeValue='1'
+RecordLen=339
+
+[Item]
+Label=Login
+Name=LOGIN
+Start=3
+Len=36
+DataType=Alpha
+
+[Item]
+Label=PIN Code Confirmation
+Name=PIN_CODE_CONFIRMATION
+Start=39
+Len=6
+ZeroFill=Yes
+
+[Item]
+Label=Supervisor Access Password
+Name=SUPERVISOR_ACCESS_PASSWORD
+Start=45
+Len=6
+ZeroFill=Yes
+
+[Item]
+Label=Supervisor Name
+Name=SUPERVISOR_NAME
+Start=51
+Len=50
+DataType=Alpha
+
+[Item]
+Label=Supervisor PIN Code
+Name=SUPERVISOR_PIN_CODE
+Start=101
+Len=6
+ZeroFill=Yes
+
+[Item]
+Label=Assignment Selection
+Name=ASSIGNMENT_SELECTION
+Start=107
+Len=49
+DataType=Alpha
+
+[Item]
+Label=Supervisor Region
+Name=SUPERVISOR_REGION
+Start=156
+Len=2
+ZeroFill=Yes
+
+[Item]
+Label=Supervisor Province
+Name=SUPERVISOR_PROVINCE
+Start=158
+Len=2
+ZeroFill=Yes
+
+[Item]
+Label=Supervisor Municipal
+Name=SUPERVISOR_MUNICIPAL
+Start=160
+Len=2
+ZeroFill=Yes
+
+[Item]
+Label=Supervisor Barangay
+Name=SUPERVISOR_BARANGAY
+Start=162
+Len=3
+ZeroFill=Yes
+
+[Item]
+Label=Supervisor Menu
+Name=SUPERVISOR_MENU
+Start=165
+Len=2
+ZeroFill=Yes
+
+[ValueSet]
+Label=Supervisor Menu
+Name=SUPERVISOR_MENU_VS1
+Value=1;Manage staff
+Value=2;Assign EA to interviewer
+Value=3;View interviewer status report
+Value=4;Transfer data with interviewer
+Value=5;Transfer data with headquarters
+Value=8;Change my assignment
+Value=9;Switch users
+
+[Item]
+Label=Interviewer Menu
+Name=INTERVIEWER_MENU
+Start=167
+Len=19
+DataType=Alpha
+
+[Item]
+Label=View All Households
+Name=VIEW_ALL_HOUSEHOLDS
+Start=186
+Len=19
+DataType=Alpha
+
+[Item]
+Label=Manage Staff
+Name=MANAGE_STAFF
+Start=205
+Len=36
+DataType=Alpha
+
+[Item]
+Label=Manage Staff Member
+Name=MANAGE_STAFF_MEMBER
+Start=241
+Len=1
+ZeroFill=Yes
+
+[Item]
+Label=Manage Staff Name
+Name=MANAGE_STAFF_NAME
+Start=242
+Len=50
+DataType=Alpha
+
+[Item]
+Label=Interviewer EA
+Name=INTERVIEWER_EA
+Start=292
+Len=3
+ZeroFill=Yes
+
+[Item]
+Label=Interviewer Code
+Name=INTERVIEWER_CODE
+Start=295
+Len=36
+DataType=Alpha
+
+[Item]
+Label=Current Region
+Name=CURRENT_REGION
+Start=331
+Len=2
+ZeroFill=Yes
+
+[Item]
+Label=Current Province
+Name=CURRENT_PROVINCE
+Start=333
+Len=2
+ZeroFill=Yes
+
+[Item]
+Label=Current Municipal
+Name=CURRENT_MUNICIPAL
+Start=335
+Len=2
+ZeroFill=Yes
+
+[Item]
+Label=Current Barangay
+Name=CURRENT_BARANGAY
+Start=337
+Len=3
+ZeroFill=Yes

@@ -1,0 +1,15 @@
+﻿[Run Information]
+Version=CSPro 7.1
+AppType=Reformat
+
+[Files]
+InputData=..\Data\Assignments.csdb
+OutputData=..\Data\Assignments.csdb
+InputDict=.\Assignments.dcf
+OutputDict=.\Assignments.dcf
+Listing=..\Data\CSRefmt.lst
+
+[Parameters]
+ViewListing=Always
+ViewResults=No
+

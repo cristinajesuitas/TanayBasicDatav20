@@ -1,0 +1,24 @@
+﻿[Run Information]
+Version=CSPro 7.1
+AppType=Entry
+
+[DataEntryInit]
+Interactive=Ask
+
+[Files]
+Application=.\Menu.ent
+InputData=|NONE
+
+[ExternalFiles]
+TBD_ASSIGNMENTS_DICT=..\Data\Assignments.csdb|CSPRODB
+TBD_GEOCODE_DICT=..\Data\Geocode.csdb|CSPRODB
+TBD_GEO_DICT=..\Data\Geocode2.csdb|CSPRODB
+TBD_INHABITANT_DICT=..\Data\Population.csdb|CSPRODB
+TBD_STAFF_DICT=..\Data\Staff.csdb|CSPRODB
+
+[UserFiles]
+PFFFILE=
+REPORT_FILE=
+
+[Parameters]
+

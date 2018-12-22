@@ -1,0 +1,15 @@
+﻿[CSPro Application]
+Version=CSPro 7.1
+Label=POPULATION
+Name=POPULATION
+AppType=DataEntry
+[AppCode]
+File=.\Population.ent.apc
+[Message]
+File=.\Population.ent.mgf
+[Help]
+File=.\Population.ent.qsf
+[Forms]
+File=.\Population.fmf
+[Dictionary Types]
+Dict-Type=..\Dictionary\Inhabitant.dcf,Input,.\Population.fmf
