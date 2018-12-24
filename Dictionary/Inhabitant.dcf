@@ -93,23 +93,131 @@ Len=4
 ZeroFill=Yes
 
 [Record]
+Label=Respondent record
+Name=RESPONDENT_REC
+RecordTypeValue='B'
+RecordLen=213
+
+[Item]
+Label=Respondent Name
+Name=BI_RESPONDENT_NAME
+Start=22
+Len=50
+DataType=Alpha
+
+[Item]
+Label=Address
+Name=BI_ADDRESS
+Start=72
+Len=142
+DataType=Alpha
+
+[Item]
+Label=Unit Number
+Name=BI_UNIT_NO
+Start=72
+Len=5
+ItemType=SubItem
+
+[Item]
+Label=Lot Number
+Name=BI_LOT_NO
+Start=77
+Len=3
+ItemType=SubItem
+
+[Item]
+Label=Block Number
+Name=BI_BLOCK_NO
+Start=80
+Len=3
+ItemType=SubItem
+
+[Item]
+Label=Phase Number
+Name=BI_PHASE_NO
+Start=83
+Len=3
+ItemType=SubItem
+
+[Item]
+Label=Floor Number
+Name=BI_FLOOR_NO
+Start=86
+Len=3
+ItemType=SubItem
+
+[Item]
+Label=House Number
+Name=BI_HOUSE_NO
+Start=89
+Len=5
+ItemType=SubItem
+DataType=Alpha
+
+[Item]
+Label=Building/Apartment Name
+Name=BI_BUILDING_NAME
+Start=94
+Len=30
+ItemType=SubItem
+DataType=Alpha
+
+[Item]
+Label=Subdivision Name
+Name=BI_SUBDIVISION_NAME
+Start=124
+Len=30
+ItemType=SubItem
+DataType=Alpha
+
+[Item]
+Label=Street Name
+Name=BI_STREET_NAME
+Start=154
+Len=30
+ItemType=SubItem
+DataType=Alpha
+
+[Item]
+Label=Sitio/Purok Name
+Name=BI_SITIO_PUROK_NAME
+Start=184
+Len=30
+ItemType=SubItem
+DataType=Alpha
+
+[Record]
 Label=Inhabitant record
 Name=INHABITANT_REC
-RecordTypeValue='B'
+RecordTypeValue='C'
 MaxRecords=10
-RecordLen=123
+RecordLen=141
+
+[Item]
+Label=Population Section:  Keep Row?
+Name=BI_KEEP_ROW
+Start=22
+Len=1
+ZeroFill=Yes
+
+[ValueSet]
+Label=Population Section:  Keep Row?
+Name=BI_KEEP_ROW_VS1
+Value=1;Yes, keep population row
+Value=2;No, delete population row
 
 [Item]
 Label=Name
 Name=BI_NAME
-Start=22
+Start=23
 Len=75
 DataType=Alpha
 
 [Item]
 Label=Firstname
-Name=BI_FIRSTNAME
-Start=22
+Name=BI_FNAME
+Start=23
 Len=25
 ItemType=SubItem
 DataType=Alpha
@@ -117,7 +225,7 @@ DataType=Alpha
 [Item]
 Label=Middlename
 Name=BI_MNAME
-Start=47
+Start=48
 Len=25
 ItemType=SubItem
 DataType=Alpha
@@ -125,22 +233,92 @@ DataType=Alpha
 [Item]
 Label=Lastname
 Name=BI_LNAME
-Start=72
+Start=73
 Len=25
 ItemType=SubItem
 DataType=Alpha
 
 [Item]
+Label=Sex
+Name=BI_SEX
+Start=98
+Len=1
+
+[ValueSet]
+Label=Sex
+Name=BI_SEX_VS1
+Value=1;Male
+Value=2;Female
+
+[Item]
+Label=Relationship to Household
+Name=BI_RELATIONSHIP
+Start=99
+Len=2
+ZeroFill=Yes
+
+[ValueSet]
+Label=Relationship
+Name=BI_RELATIONSHIP_WITH_HEAD_VS
+Value=1;Head
+Value=2;Spouse
+Value=3;Son
+Value=4;Daughter
+Value=5;Stepson
+Value=6;Stepdaughter
+Value=7;Son-in-Law
+Value=8;Daughter-in-Law
+Value=9;Grandson
+Value=10;Granddaughter
+Value=11;Father
+Value=12;Mother
+Value=13;Brother
+Value=14;Sister
+Value=15;Uncle
+Value=16;Aunt
+Value=17;Nephew
+Value=18;Niece
+Value=19;Other relative
+Value=20;Non-relative
+Value=21;Boarder
+Value=22;Domestic Helper
+
+[ValueSet]
+Label=Relationship
+Name=BI_RELATIONSHIP_WITHOUT_HEAD_VS
+Value=2;Spouse
+Value=3;Son
+Value=4;Daughter
+Value=5;Stepson
+Value=6;Stepdaughter
+Value=7;Son-in-Law
+Value=8;Daughter-in-Law
+Value=9;Grandson
+Value=10;Granddaughter
+Value=11;Father
+Value=12;Mother
+Value=13;Brother
+Value=14;Sister
+Value=15;Uncle
+Value=16;Aunt
+Value=17;Nephew
+Value=18;Niece
+Value=19;Other relative
+Value=20;Non-relative
+Value=21;Boarder
+Value=22;Domestic Helper
+
+[Item]
 Label=Date of Birth
 Name=BI_DATE_OF_BIRTH
-Start=97
+Start=101
 Len=8
 DataType=Alpha
 
 [Item]
 Label=Birth Month
 Name=BI_BIRTH_MONTH
-Start=97
+Start=101
 Len=2
 ItemType=SubItem
 ZeroFill=Yes
@@ -164,20 +342,20 @@ Value=12;December
 [Item]
 Label=Birth Day
 Name=BI_BIRTH_DAY
-Start=99
+Start=103
 Len=2
 ItemType=SubItem
 ZeroFill=Yes
 
 [ValueSet]
 Label=Birth Day
-Name=BI_BIRTH_DAY_VS
+Name=BI_BIRTH_DAY_VS1
 Value=1:31
 
 [Item]
 Label=Birth Year
 Name=BI_BIRTH_YEAR
-Start=101
+Start=105
 Len=4
 ItemType=SubItem
 ZeroFill=Yes
@@ -190,7 +368,7 @@ Value=1900:2018
 [Item]
 Label=Age
 Name=BI_AGE
-Start=105
+Start=109
 Len=3
 
 [ValueSet]
@@ -231,14 +409,39 @@ Value=60:120;Senior
 [Item]
 Label=Place of Birth
 Name=BI_PLACE_OF_BIRTH
-Start=108
-Len=6
+Start=112
+Len=10
 DataType=Alpha
+
+[Item]
+Label=Continent Birth
+Name=BI_CONTINENT_BIRTH
+Start=112
+Len=1
+ItemType=SubItem
+
+[ValueSet]
+Label=Continent Birth
+Name=BI_CONTINENT_BIRTH_VS1
+Value=1;Africa
+Value=2;Asia
+Value=3;Australia/Oceania
+Value=4;Europe
+Value=5;North America
+Value=6;South America
+
+[Item]
+Label=Country Birth
+Name=BI_COUNTRY_BIRTH
+Start=113
+Len=3
+ItemType=SubItem
+ZeroFill=Yes
 
 [Item]
 Label=Region Birth
 Name=BI_REGION_BIRTH
-Start=108
+Start=116
 Len=2
 ItemType=SubItem
 
@@ -250,7 +453,7 @@ Link=112522592
 [Item]
 Label=Province Birth
 Name=BI_PROVINCE_BIRTH
-Start=108
+Start=118
 Len=2
 ItemType=SubItem
 ZeroFill=Yes
@@ -258,27 +461,15 @@ ZeroFill=Yes
 [Item]
 Label=Municipal Birth
 Name=BI_MUNICIPAL_BIRTH
-Start=110
+Start=120
 Len=2
 ItemType=SubItem
 ZeroFill=Yes
 
 [Item]
-Label=Sex
-Name=BI_SEX
-Start=114
-Len=1
-
-[ValueSet]
-Label=Sex
-Name=BI_SEX_VS
-Value=1;Male
-Value=2;Female
-
-[Item]
 Label=Civil Status
 Name=BI_CIVIL_STATUS
-Start=115
+Start=122
 Len=1
 
 [ValueSet]
@@ -292,114 +483,272 @@ Value=5;Living-in
 Value=6;Unknown
 
 [Item]
-Label=Occupation
-Name=BI_OCCUPATION
-Start=116
-Len=2
-
-[Item]
 Label=Citizenship
 Name=BI_CITIZENSHIP
-Start=118
+Start=123
+Len=4
+DataType=Alpha
+
+[Item]
+Label=Filipino Citizen
+Name=BI_FILIPINO
+Start=123
+Len=1
+ItemType=SubItem
+
+[ValueSet]
+Label=Filipino Citizen
+Name=BI_FILIPINO_VS1
+Value=1;Yes, Filipino citizen
+Value=2;Yes, Filipino citizen with dual citizenship
+Value=3;No
+
+[Item]
+Label=Other Citizenship
+Name=BI_OTHER_CITIZENSHIP
+Start=124
+Len=3
+ItemType=SubItem
+ZeroFill=Yes
+
+[Item]
+Label=Religion
+Name=BI_RELIGION
+Start=127
 Len=3
 ZeroFill=Yes
 
-[ValueSet]
-Label=Citizenship
-Name=BI_CITIZENSHIP_VS1
-Value=1;Filipino
-Value=2;Others, pls specify
+[Item]
+Label=Ethnicity
+Name=BI_ETHNICITY
+Start=130
+Len=3
+ZeroFill=Yes
 
 [Item]
-Label=Relationship to Household
-Name=BI_RELATIONSHIP
-Start=121
+Label=Disability
+Name=BI_DISABILITY
+Start=133
+Len=3
+DataType=Alpha
+
+[ValueSet]
+Label=Disability
+Name=BI_DISABILITY_VS1
+Value='A  ';Mental impairment
+Value='B  ';Physical Impairment
+Value='C  ';Sensory impairment
+Value='D  ';Not applicable
+
+[Item]
+Label=Literacy
+Name=BI_LITERACY
+Start=136
+Len=1
+
+[ValueSet]
+Label=Literacy
+Name=BI_LITERACY_VS1
+Value=1;Yes
+Value=2;No
+
+[Item]
+Label=Highest level of education completed
+Name=BI_EDUCATION
+Start=137
 Len=2
 ZeroFill=Yes
 
 [ValueSet]
-Label=Relationship
-Name=BI_RELATIONSHIP_VS3
-Value=1;Head
-Value=2;Spouse
-Value=3;Son
-Value=4;Daughter
-Value=5;Stepson
-Value=6;Stepdaughter
-Value=7;Son-in-Law
-Value=8;Daughter-in-Law
-Value=9;Grandson
-Value=10;Granddaughter
-Value=11;Father
-Value=12;Mother
-Value=13;Brother
-Value=14;Sister
-Value=15;Uncle
-Value=16;Aunt
-Value=17;Nephew
-Value=18;Niece
-Value=19;Other relative
-Value=20;Non-relative
-Value=21;Boarder
-Value=22;Domestic Helper
-
-[ValueSet]
-Label=Relationship
-Name=BI_RELATIONSHIP_MALE
-Value=1;Head
-Value=2;Husband
-Value=3;Son
-Value=5;Stepson
-Value=7;Son-in-Law
-Value=9;Grandson
-Value=11;Father
-Value=13;Brother
-Value=15;Uncle
-Value=17;Nephew
-Value=19;Other relative
-Value=20;Non-relative
-Value=21;Boarder
-Value=22;Domestic Helper
-
-[ValueSet]
-Label=Relationship
-Name=BI_RELATIONSHIP_FEMALE
-Value=1;Head
-Value=2;Wife
-Value=4;Daughter
-Value=6;Stepdaughter
-Value=8;Daughter-in-Law
-Value=10;Granddaughter
-Value=12;Mother
-Value=14;Sister
-Value=16;Aunt
-Value=18;Niece
-Value=19;Other relative
-Value=20;Non-relative
-Value=21;Boarder
-Value=22;Domestic Helper
+Label=Highest level of education completed
+Name=BI_EDUCATION_VS1
+Value=0;No education
+Value=1;Pre-school
+Value=2;Elementary Level
+Value=3;Elementary Graduate
+Value=4;High school level
+Value=5;High school graduate
+Value=6;Junior Highschool
+Value=7;Junior Higschool graduate
+Value=8;Senior highschool level
+Value=9;Senior highschool graduate
+Value=10;Vocational/Tech
+Value=11;College level
+Value=12;College graduate
+Value=13;Post-graduate
 
 [Item]
-Label=Add Household Member
-Name=ADD_HOUSEHOLD_MEMBER
-Start=123
+Label=Occupation
+Name=BI_OCCUPATION
+Start=139
+Len=2
+
+[Item]
+Label=Population Section:  Roster Confirmation
+Name=BI_MORE_ROWS
+Start=141
 Len=1
+ZeroFill=Yes
 
 [ValueSet]
-Label=Add Household Member
-Name=ADD_HOUSEHOLD_MEMBER_VS1
+Label=Population Section:  Roster Confirmation
+Name=BI_MORE_ROWS_VS1
 Value=1;Yes, keep population row
 Value=2;No, delete population row
 
 [Record]
 Label=Metadata
 Name=METADATA
-RecordTypeValue='C'
-RecordLen=31
+RecordTypeValue='D'
+RecordLen=172
+
+[Item]
+Label=Interviewer Code
+Name=BI_INTERVIEWER_CODE
+Start=22
+Len=36
+DataType=Alpha
+
+[Item]
+Label=Supervisor Code
+Name=BI_SUPERVISOR_CODE
+Start=58
+Len=36
+DataType=Alpha
+
+[Item]
+Label=Start Interview Time
+Name=BI_START_INTERVIEW_TIME
+Start=94
+Len=10
+ZeroFill=Yes
 
 [Item]
 Label=End Interview Time
 Name=BI_END_INTERVIEW_TIME
-Start=22
+Start=104
 Len=10
 ZeroFill=Yes
+
+[Item]
+Label=Program Publish Date
+Name=BI_PROGRAM_PUBLISH_DATE
+Start=114
+Len=14
+ZeroFill=Yes
+
+[Item]
+Label=GPS Reading
+Name=BI_GPS_READING
+Start=128
+Len=1
+ZeroFill=Yes
+
+[ValueSet]
+Label=GPS Reading
+Name=BI_GPS_MOBILE_NO_DATA_VS
+Value=1;Yes
+Value=3;No
+
+[ValueSet]
+Label=GPS Reading
+Name=BI_GPS_MOBILE_EXISTING_DATA_VS
+Value=1;Yes
+Value=2;No, but keep previously collected GPS data
+Value=3;No, but delete previously collected GPS data
+
+[ValueSet]
+Label=GPS Reading
+Name=BI_GPS_WINDOWS_NO_DATA_VS
+Value=3;No
+
+[ValueSet]
+Label=GPS Reading
+Name=BI_GPS_WINDOWS_EXISTING_DATA_VS
+Value=2;No, but keep previously collected GPS data
+Value=3;No, but delete previously collected GPS data
+
+[Item]
+Label=GPS Latitude
+Name=BI_GPS_LATITUDE
+Start=129
+Len=10
+Decimal=6
+DecimalChar=Yes
+ZeroFill=Yes
+
+[Item]
+Label=GPS Longitude
+Name=BI_GPS_LONGITUDE
+Start=139
+Len=10
+Decimal=6
+DecimalChar=Yes
+ZeroFill=Yes
+
+[Item]
+Label=GPS Altitude
+Name=BI_GPS_ALTITUDE
+Start=149
+Len=7
+Decimal=1
+DecimalChar=Yes
+ZeroFill=Yes
+
+[Item]
+Label=GPS Accuracy
+Name=BI_GPS_ACCURACY
+Start=156
+Len=6
+Decimal=1
+DecimalChar=Yes
+ZeroFill=Yes
+
+[Item]
+Label=GPS Satellites
+Name=BI_GPS_SATELLITES
+Start=162
+Len=3
+ZeroFill=Yes
+
+[Item]
+Label=GPS Readtime
+Name=BI_GPS_READTIME
+Start=165
+Len=6
+ZeroFill=Yes
+
+[Item]
+Label=Interview Introduction
+Name=BI_INTRODUCTION
+Start=171
+Len=1
+ZeroFill=Yes
+
+[ValueSet]
+Label=Interview Introduction
+Name=BI_INTRODUCTION_BEGIN_VS
+Value=1;Modify questionnaire
+
+[ValueSet]
+Label=Interview Introduction
+Name=BI_INTRODUCTION_PARTIAL_VS
+Value=2;Continue interview where previously left off
+Value=1;Continue interview from first question
+
+[ValueSet]
+Label=Interview Introduction
+Name=BI_INTRODUCTION_MODIFY_VS
+Value=1;Begin interview
+
+[Item]
+Label=Population Section
+Name=BI_POPULATION_SECTION
+Start=172
+Len=1
+ZeroFill=Yes
+
+[ValueSet]
+Label=Population Section
+Name=BI_POPULATION_SECTION_VS1
+Value=1;Continue
