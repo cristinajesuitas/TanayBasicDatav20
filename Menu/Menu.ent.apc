@@ -4,7 +4,7 @@ PROC GLOBAL
 numeric supervisor_password = 123456;
 string login_setting_key = "TBD Login";
 string assignment_setting_key = "TBD Assignment";
-string segment_alphabet = "1234567890";
+string segment_alphabet = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
 array string months(12) = "Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec";
 
 // ------------------
@@ -20,6 +20,8 @@ string capi_region_name;
 string capi_province_name;
 string capi_municipal_name;
 string capi_barangay_name;
+string capi_ea_name;
+string capi_bgy_class;
 numeric capi_ea_assigned_count;
 numeric capi_household_complete_count;
 numeric capi_household_partial_count;
@@ -72,6 +74,33 @@ end;
 function string LookupEAName(ea)
 
 	LookupEAName = maketext("EA%03d", ea);
+	
+end;
+
+function string LookupBirthPlaceName(continent,country)
+
+	COUNTRY_CONTINENT = continent;
+	COUNTRY_COUNTRY = country;
+	
+	if loadcase(TBD_COUNTRY_DICT, COUNTRY_CONTINENT, COUNTRY_COUNTRY) then
+		LookupBirthPlaceName = strip(COUNTRY_NAME);
+
+	else
+		LookupBirthPlaceName = "<Invalid Geocode>";
+
+	endif;
+
+end;
+
+function string LookupContinentName(continent)
+
+	LookupContinentName = LookupBirthPlaceName(continent, notappl);
+	
+end;
+
+function string LookupCountryName(continent, country)
+
+	LookupCountryName = LookupBirthPlaceName(continent, country);
 	
 end;
 
@@ -958,6 +987,7 @@ postproc
 		capi_province_name = LookupProvinceName(CURRENT_REGION, CURRENT_PROVINCE);
 		capi_municipal_name = LookupMunicipalName(CURRENT_REGION, CURRENT_PROVINCE, CURRENT_MUNICIPAL);
 		capi_barangay_name = LookupBarangayName(CURRENT_REGION,CURRENT_PROVINCE, CURRENT_MUNICIPAL, CURRENT_BARANGAY);
+		capi_ea_name = LookupEAName(ASSIGNMENTS_EA);
 
 		if ASSIGNMENTS_ROLE = 1 then
 			skip to INTERVIEWER_MENU;
@@ -1433,7 +1463,7 @@ onfocus
 	ResetVS();
 
 	// Display all enumerations areas that are within the current province and district
-	forcase TBD_GEO_DICT where GEO_AREA_LEVEL = 3 and
+	forcase TBD_GEO_DICT where GEO_AREA_LEVEL = 5 and
 		GEO_REGION = CURRENT_REGION and GEO_PROVINCE = CURRENT_PROVINCE and 
 		GEO_MUNICIPAL = CURRENT_MUNICIPAL and GEO_BARANGAY = CURRENT_BARANGAY do
 

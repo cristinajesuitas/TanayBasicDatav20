@@ -1,7 +1,7 @@
 ﻿[Dictionary]
 Version=CSPro 7.1
-Label=COUNTRY Dictionary
-Name=COUNTRY_DICT
+Label=Tanay Basic Data Country Dictionary
+Name=TBD_COUNTRY_DICT
 RecordTypeStart=0
 RecordTypeLen=0
 Positions=Relative

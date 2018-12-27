@@ -24,7 +24,7 @@ Len=1
 Label=Menu record
 Name=MENU_REC
 RecordTypeValue='1'
-RecordLen=339
+RecordLen=341
 
 [Item]
 Label=Login
@@ -118,75 +118,75 @@ Value=9;Switch users
 Label=Interviewer Menu
 Name=INTERVIEWER_MENU
 Start=167
-Len=19
+Len=20
 DataType=Alpha
 
 [Item]
 Label=View All Households
 Name=VIEW_ALL_HOUSEHOLDS
-Start=186
-Len=19
+Start=187
+Len=20
 DataType=Alpha
 
 [Item]
 Label=Manage Staff
 Name=MANAGE_STAFF
-Start=205
+Start=207
 Len=36
 DataType=Alpha
 
 [Item]
 Label=Manage Staff Member
 Name=MANAGE_STAFF_MEMBER
-Start=241
+Start=243
 Len=1
 ZeroFill=Yes
 
 [Item]
 Label=Manage Staff Name
 Name=MANAGE_STAFF_NAME
-Start=242
+Start=244
 Len=50
 DataType=Alpha
 
 [Item]
 Label=Interviewer EA
 Name=INTERVIEWER_EA
-Start=292
+Start=294
 Len=3
 ZeroFill=Yes
 
 [Item]
 Label=Interviewer Code
 Name=INTERVIEWER_CODE
-Start=295
+Start=297
 Len=36
 DataType=Alpha
 
 [Item]
 Label=Current Region
 Name=CURRENT_REGION
-Start=331
+Start=333
 Len=2
 ZeroFill=Yes
 
 [Item]
 Label=Current Province
 Name=CURRENT_PROVINCE
-Start=333
+Start=335
 Len=2
 ZeroFill=Yes
 
 [Item]
 Label=Current Municipal
 Name=CURRENT_MUNICIPAL
-Start=335
+Start=337
 Len=2
 ZeroFill=Yes
 
 [Item]
 Label=Current Barangay
 Name=CURRENT_BARANGAY
-Start=337
+Start=339
 Len=3
 ZeroFill=Yes

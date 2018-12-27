@@ -1,7 +1,7 @@
 ﻿[Dictionary]
 Version=CSPro 7.1
-Label=Tanay Basic Data Geocode Dictionary
-Name=TBD_GEOCODE_DICT
+Label=Tanay Basic Data Geocodes Dictionary
+Name=TBD_GEO_DICT
 RecordTypeStart=0
 RecordTypeLen=0
 Positions=Relative
@@ -9,8 +9,8 @@ ZeroFill=Yes
 DecimalChar=Yes
 
 [Level]
-Label=GEOCODE Level
-Name=GEOCODE_LEVEL
+Label=Geocode Level
+Name=GEO_LEVEL
 
 [IdItems]
 
@@ -43,21 +43,41 @@ Len=3
 ZeroFill=Yes
 
 [Item]
-Label=EA
+Label=Enumeration Area
 Name=GEO_EA
 Start=10
 Len=3
 ZeroFill=Yes
 
 [Record]
-Label=GEOCODE Record
-Name=GEOCODE_REC
+Label=Geocode Record
+Name=GEO_REC
 RecordTypeValue=''
-RecordLen=66
+RecordLen=68
+
+[Item]
+Label=Area Level
+Name=GEO_AREA_LEVEL
+Start=13
+Len=1
+ZeroFill=Yes
 
 [Item]
 Label=Area Name
 Name=GEO_AREA_NAME
-Start=13
+Start=14
 Len=54
 DataType=Alpha
+
+[Item]
+Label=Area Class
+Name=GEO_AREA_CLASS
+Start=68
+Len=1
+ZeroFill=Yes
+
+[ValueSet]
+Label=Area Class
+Name=GEO_AREA_CLASS_VS1
+Value=1;Urban
+Value=2;Rural

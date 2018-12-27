@@ -49,6 +49,7 @@ Item=SUPERVISOR_BARANGAY
 [Form]
 Name=FORM003
 Label=Main Menu Form
+QuestionTextHeight=171
 Level=1
 Size=665,199
   
@@ -266,7 +267,7 @@ Text=Supervisor Menu
   
 [Field]
 Name=INTERVIEWER_MENU
-Position=471,46,738,66
+Position=471,46,752,66
 Item=INTERVIEWER_MENU,TBD_MENU_DICT
 FieldLabelType=DictionaryLabel
 DataCaptureType=DropDown
@@ -279,7 +280,7 @@ Text=Interviewer Menu
   
 [Field]
 Name=VIEW_ALL_HOUSEHOLDS
-Position=219,148,486,168
+Position=219,148,500,168
 Item=VIEW_ALL_HOUSEHOLDS,TBD_MENU_DICT
 FieldLabelType=DictionaryLabel
 DataCaptureType=DropDown

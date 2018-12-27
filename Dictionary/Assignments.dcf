@@ -73,18 +73,18 @@ Value=2;SUPERVISOR
 Label=Assignments record
 Name=ASSIGNMENTS_REC
 RecordTypeValue='1'
-RecordLen=63
+RecordLen=61
 
 [Item]
 Label=Segment
 Name=ASSIGNMENTS_SEGMENT
 Start=51
-Len=3
+Len=1
 DataType=Alpha
 
 [Item]
 Label=Date Assigned EA
 Name=ASSIGNMENTS_DATE_ASSIGNED_EA
-Start=54
+Start=52
 Len=10
 ZeroFill=Yes

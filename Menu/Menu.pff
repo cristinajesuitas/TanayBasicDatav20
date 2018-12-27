@@ -10,9 +10,10 @@ Application=.\Menu.ent
 InputData=|NONE
 
 [ExternalFiles]
-TBD_ASSIGNMENTS_DICT=..\Data\Assignments.csdb|CSPRODB
+TBD_ASSIGNMENTS_DICT=..\Data\Assignment.csdb|CSPRODB
+TBD_COUNTRY_DICT=..\Data\Country.dat
 TBD_GEOCODE_DICT=..\Data\Geocode.csdb|CSPRODB
-TBD_GEO_DICT=..\Data\Geocode2.csdb|CSPRODB
+TBD_GEO_DICT=..\Data\Geocode.csdb|CSPRODB
 TBD_INHABITANT_DICT=..\Data\Population.csdb|CSPRODB
 TBD_STAFF_DICT=..\Data\Staff.csdb|CSPRODB
 

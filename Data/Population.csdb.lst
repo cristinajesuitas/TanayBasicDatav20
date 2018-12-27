@@ -1,0 +1,319 @@
+﻿Application     C:\Users\Cristina\Dropbox (Old)\TanayLMIS\LMIS\TanayBasicDatav20\Household\Household.ent
+Type            ENTRY
+Input Data      <<CSPro DB>> C:\Users\Cristina\Dropbox (Old)\TanayLMIS\LMIS\TanayBasicDatav20\Data\Population.csdb
+
+Date            Dec 24, 2018
+Start Time      19:28:10
+End Time        19:28:23
+
+CSPRO Process Summary
+
+System messages:
+
+ Number    Frequency   Message text
+ ------    ---------   ------------
+   1010            1   Application error: protected field %n out of rang
+  48000            2   Invalid expression (%s) in CAPI text             
+
+CSPRO Executor Normal End
+--------------------------------------------------------------------------------
+Application     C:\Users\Cristina\Dropbox (Old)\TanayLMIS\LMIS\TanayBasicDatav20\Household\Household.ent
+Type            ENTRY
+Input Data      <<CSPro DB>> C:\Users\Cristina\Dropbox (Old)\TanayLMIS\LMIS\TanayBasicDatav20\Data\Population.csdb
+
+Date            Dec 24, 2018
+Start Time      19:29:42
+End Time        19:30:27
+
+CSPRO Process Summary
+
+System messages:
+
+ Number    Frequency   Message text
+ ------    ---------   ------------
+   1010            1   Application error: protected field %n out of rang
+  48000            2   Invalid expression (%s) in CAPI text             
+
+CSPRO Executor Normal End
+--------------------------------------------------------------------------------
+Application     C:\Users\Cristina\Dropbox (Old)\TanayLMIS\LMIS\TanayBasicDatav20\Household\Household.ent
+Type            ENTRY
+Input Data      <<CSPro DB>> C:\Users\Cristina\Dropbox (Old)\TanayLMIS\LMIS\TanayBasicDatav20\Data\Population.csdb
+
+Date            Dec 24, 2018
+Start Time      20:19:29
+End Time        20:19:42
+
+CSPRO Process Summary
+
+System messages:
+
+ Number    Frequency   Message text
+ ------    ---------   ------------
+   1010            1   Application error: protected field %n out of rang
+  48000            2   Invalid expression (%s) in CAPI text             
+
+CSPRO Executor Normal End
+--------------------------------------------------------------------------------
+Application     C:\Users\Cristina\Dropbox (Old)\TanayLMIS\LMIS\TanayBasicDatav20\Household\Household.ent
+Type            ENTRY
+Input Data      <<CSPro DB>> C:\Users\Cristina\Dropbox (Old)\TanayLMIS\LMIS\TanayBasicDatav20\Data\Population.csdb
+
+Date            Dec 26, 2018
+Start Time      19:42:25
+End Time        19:42:45
+
+CSPRO Process Summary
+
+System messages:
+
+ Number    Frequency   Message text
+ ------    ---------   ------------
+   1010            1   Application error: protected field %n out of rang
+  48000            2   Invalid expression (%s) in CAPI text             
+
+CSPRO Executor Normal End
+--------------------------------------------------------------------------------
+Application     C:\Users\Cristina\Dropbox (Old)\TanayLMIS\LMIS\TanayBasicDatav20\Household\Household.ent
+Type            ENTRY
+Input Data      <<CSPro DB>> C:\Users\Cristina\Dropbox (Old)\TanayLMIS\LMIS\TanayBasicDatav20\Data\Population.csdb
+
+Date            Dec 26, 2018
+Start Time      20:17:54
+End Time        20:18:41
+
+CSPRO Process Summary
+
+System messages:
+
+ Number    Frequency   Message text
+ ------    ---------   ------------
+   1010            1   Application error: protected field %n out of rang
+  48000            2   Invalid expression (%s) in CAPI text             
+
+CSPRO Executor Normal End
+--------------------------------------------------------------------------------
+Application     C:\Users\Cristina\Dropbox (Old)\TanayLMIS\LMIS\TanayBasicDatav20\Household\Household.ent
+Type            ENTRY
+Input Data      <<CSPro DB>> C:\Users\Cristina\Dropbox (Old)\TanayLMIS\LMIS\TanayBasicDatav20\Data\Population.csdb
+
+Date            Dec 26, 2018
+Start Time      20:53:37
+End Time        21:20:53
+
+CSPRO Process Summary
+
+System messages:
+
+ Number    Frequency   Message text
+ ------    ---------   ------------
+   1010            1   Application error: protected field %n out of rang
+  48000            2   Invalid expression (%s) in CAPI text             
+
+CSPRO Executor Normal End
+--------------------------------------------------------------------------------
+Application     C:\Users\Cristina\Dropbox (Old)\TanayLMIS\LMIS\TanayBasicDatav20\Household\Household.ent
+Type            ENTRY
+Input Data      <<CSPro DB>> C:\Users\Cristina\Dropbox (Old)\TanayLMIS\LMIS\TanayBasicDatav20\Data\Population.csdb
+
+Date            Dec 26, 2018
+Start Time      23:08:36
+End Time        23:09:26
+
+CSPRO Process Summary
+
+System messages:
+
+ Number    Frequency   Message text
+ ------    ---------   ------------
+  48000            2   Invalid expression (%s) in CAPI text             
+
+CSPRO Executor Normal End
+--------------------------------------------------------------------------------
+Application     C:\Users\Cristina\Dropbox (Old)\TanayLMIS\LMIS\TanayBasicDatav20\Household\Household.ent
+Type            ENTRY
+Input Data      <<CSPro DB>> C:\Users\Cristina\Dropbox (Old)\TanayLMIS\LMIS\TanayBasicDatav20\Data\Population.csdb
+
+Date            Dec 26, 2018
+Start Time      23:14:39
+End Time        23:22:12
+
+CSPRO Process Summary
+
+System messages:
+
+ Number    Frequency   Message text
+ ------    ---------   ------------
+  48000            2   Invalid expression (%s) in CAPI text             
+
+CSPRO Executor Normal End
+--------------------------------------------------------------------------------
+Application     C:\Users\Cristina\Dropbox (Old)\TanayLMIS\LMIS\TanayBasicDatav20\Household\Household.ent
+Type            ENTRY
+Input Data      <<CSPro DB>> C:\Users\Cristina\Dropbox (Old)\TanayLMIS\LMIS\TanayBasicDatav20\Data\Population.csdb
+
+Date            Dec 26, 2018
+Start Time      23:24:14
+End Time        23:30:49
+
+CSPRO Process Summary
+
+System messages:
+
+ Number    Frequency   Message text
+ ------    ---------   ------------
+  48000            1   Invalid expression (%s) in CAPI text             
+
+CSPRO Executor Normal End
+--------------------------------------------------------------------------------
+Application     C:\Users\Cristina\Dropbox (Old)\TanayLMIS\LMIS\TanayBasicDatav20\Household\Household.ent
+Type            ENTRY
+Input Data      <<CSPro DB>> C:\Users\Cristina\Dropbox (Old)\TanayLMIS\LMIS\TanayBasicDatav20\Data\Population.csdb
+
+Date            Dec 26, 2018
+Start Time      23:30:57
+End Time        23:37:00
+
+CSPRO Process Summary
+
+System messages:
+
+ Number    Frequency   Message text
+ ------    ---------   ------------
+  48000            1   Invalid expression (%s) in CAPI text             
+
+CSPRO Executor Normal End
+--------------------------------------------------------------------------------
+Application     C:\Users\Cristina\Dropbox (Old)\TanayLMIS\LMIS\TanayBasicDatav20\Household\Household.ent
+Type            ENTRY
+Input Data      <<CSPro DB>> C:\Users\Cristina\Dropbox (Old)\TanayLMIS\LMIS\TanayBasicDatav20\Data\Population.csdb
+
+Date            Dec 26, 2018
+Start Time      23:43:52
+End Time        23:45:40
+
+CSPRO Process Summary
+
+System messages:
+
+ Number    Frequency   Message text
+ ------    ---------   ------------
+  48000            1   Invalid expression (%s) in CAPI text             
+  99990            3   Operator entered a value out of range            
+
+CSPRO Executor Normal End
+--------------------------------------------------------------------------------
+Application     C:\Users\Cristina\Dropbox (Old)\TanayLMIS\LMIS\TanayBasicDatav20\Household\Household.ent
+Type            ENTRY
+Input Data      <<CSPro DB>> C:\Users\Cristina\Dropbox (Old)\TanayLMIS\LMIS\TanayBasicDatav20\Data\Population.csdb
+
+Date            Dec 26, 2018
+Start Time      23:46:51
+End Time        23:50:42
+
+CSPRO Process Summary
+
+System messages:
+
+ Number    Frequency   Message text
+ ------    ---------   ------------
+  48000            1   Invalid expression (%s) in CAPI text             
+
+User unnumbered messages:
+
+   Line    Freq  Pct.  Message text                                        Denom
+   ----    ----  ----  ------------                                        -----
+    412       1    -   Confirm that %s is the head of household?               -
+
+CSPRO Executor Normal End
+--------------------------------------------------------------------------------
+Application     C:\Users\Cristina\Dropbox (Old)\TanayLMIS\LMIS\TanayBasicDatav20\Household\Household.ent
+Type            ENTRY
+Input Data      <<CSPro DB>> C:\Users\Cristina\Dropbox (Old)\TanayLMIS\LMIS\TanayBasicDatav20\Data\Population.csdb
+
+Date            Dec 26, 2018
+Start Time      23:50:49
+End Time        23:53:07
+
+CSPRO Process Summary
+
+System messages:
+
+ Number    Frequency   Message text
+ ------    ---------   ------------
+  48000            1   Invalid expression (%s) in CAPI text             
+
+User unnumbered messages:
+
+   Line    Freq  Pct.  Message text                                        Denom
+   ----    ----  ----  ------------                                        -----
+    412       1    -   Confirm that %s is the head of household?               -
+
+CSPRO Executor Normal End
+--------------------------------------------------------------------------------
+Application     C:\Users\Cristina\Dropbox (Old)\TanayLMIS\LMIS\TanayBasicDatav20\Household\Household.ent
+Type            ENTRY
+Input Data      <<CSPro DB>> C:\Users\Cristina\Dropbox (Old)\TanayLMIS\LMIS\TanayBasicDatav20\Data\Population.csdb
+
+Date            Dec 26, 2018
+Start Time      23:53:15
+End Time        00:15:47
+
+CSPRO Process Summary
+
+System messages:
+
+ Number    Frequency   Message text
+ ------    ---------   ------------
+  48000            2   Invalid expression (%s) in CAPI text             
+
+User unnumbered messages:
+
+   Line    Freq  Pct.  Message text                                        Denom
+   ----    ----  ----  ------------                                        -----
+    412       1    -   Confirm that %s is the head of household?               -
+
+CSPRO Executor Normal End
+--------------------------------------------------------------------------------
+Application     C:\Users\Cristina\Dropbox (Old)\TanayLMIS\LMIS\TanayBasicDatav20\Household\Household.ent
+Type            ENTRY
+Input Data      <<CSPro DB>> C:\Users\Cristina\Dropbox (Old)\TanayLMIS\LMIS\TanayBasicDatav20\Data\Population.csdb
+
+Date            Dec 27, 2018
+Start Time      00:16:07
+End Time        00:27:54
+
+CSPRO Process Summary
+
+System messages:
+
+ Number    Frequency   Message text
+ ------    ---------   ------------
+   8052            3   You cannot execute SavePartial until the ID items
+
+User unnumbered messages:
+
+   Line    Freq  Pct.  Message text                                        Denom
+   ----    ----  ----  ------------                                        -----
+    421       1    -   Confirm that %s is the head of household?               -
+
+CSPRO Executor Normal End
+--------------------------------------------------------------------------------
+Application     C:\Users\Cristina\Dropbox (Old)\TanayLMIS\LMIS\TanayBasicDatav20\Household\Household.ent
+Type            ENTRY
+Input Data      <<CSPro DB>> C:\Users\Cristina\Dropbox (Old)\TanayLMIS\LMIS\TanayBasicDatav20\Data\Population.csdb
+
+Date            Dec 27, 2018
+Start Time      00:40:23
+End Time        00:41:37
+
+CSPRO Process Summary
+
+User unnumbered messages:
+
+   Line    Freq  Pct.  Message text                                        Denom
+   ----    ----  ----  ------------                                        -----
+    406       1    -   Middlename cannot be blank                              -
+
+CSPRO Executor Normal End
+--------------------------------------------------------------------------------

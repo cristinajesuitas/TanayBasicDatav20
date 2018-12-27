@@ -13,10 +13,11 @@ CAPIFont2Color=16711680
 CaseTree=Never
 ShowErrorMessageNumbers=No
 [External Dictionaries]
-File=..\Dictionary\Staff.dcf
-File=..\Dictionary\Assignments.dcf
+File=..\Dictionary\Country.dcf
 File=..\Dictionary\Inhabitant.dcf
-File=..\Dictionary\Geocode2.dcf
+File=..\Dictionary\Staff.dcf
+File=..\Dictionary\Geocode.dcf
+File=..\Dictionary\Assignments.dcf
 [AppCode]
 File=.\Menu.ent.apc
 [Message]
@@ -27,10 +28,11 @@ File=.\Menu.ent.qsf
 File=.\Menu.fmf
 [Dictionary Types]
 Dict-Type=..\Dictionary\Menu.dcf,Input,.\Menu.fmf
-Dict-Type=..\Dictionary\Staff.dcf,External
-Dict-Type=..\Dictionary\Assignments.dcf,External
+Dict-Type=..\Dictionary\Country.dcf,External
 Dict-Type=..\Dictionary\Inhabitant.dcf,External
-Dict-Type=..\Dictionary\Geocode2.dcf,External
+Dict-Type=..\Dictionary\Staff.dcf,External
+Dict-Type=..\Dictionary\Geocode.dcf,External
+Dict-Type=..\Dictionary\Assignments.dcf,External
 [Sync]
 Server=Dropbox
 Direction=Put

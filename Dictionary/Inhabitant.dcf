@@ -96,7 +96,7 @@ ZeroFill=Yes
 Label=Respondent record
 Name=RESPONDENT_REC
 RecordTypeValue='B'
-RecordLen=213
+RecordLen=216
 
 [Item]
 Label=Respondent Name
@@ -106,51 +106,63 @@ Len=50
 DataType=Alpha
 
 [Item]
+Label=Parcel Lot
+Name=BI_PARCEL_LOT
+Start=72
+Len=3
+ZeroFill=Yes
+
+[Item]
 Label=Address
 Name=BI_ADDRESS
-Start=72
+Start=75
 Len=142
 DataType=Alpha
 
 [Item]
 Label=Unit Number
 Name=BI_UNIT_NO
-Start=72
+Start=75
 Len=5
 ItemType=SubItem
+DataType=Alpha
 
 [Item]
 Label=Lot Number
 Name=BI_LOT_NO
-Start=77
+Start=80
 Len=3
 ItemType=SubItem
+DataType=Alpha
 
 [Item]
 Label=Block Number
 Name=BI_BLOCK_NO
-Start=80
+Start=83
 Len=3
 ItemType=SubItem
+DataType=Alpha
 
 [Item]
 Label=Phase Number
 Name=BI_PHASE_NO
-Start=83
+Start=86
 Len=3
 ItemType=SubItem
+DataType=Alpha
 
 [Item]
 Label=Floor Number
 Name=BI_FLOOR_NO
-Start=86
+Start=89
 Len=3
 ItemType=SubItem
+DataType=Alpha
 
 [Item]
 Label=House Number
 Name=BI_HOUSE_NO
-Start=89
+Start=92
 Len=5
 ItemType=SubItem
 DataType=Alpha
@@ -158,7 +170,7 @@ DataType=Alpha
 [Item]
 Label=Building/Apartment Name
 Name=BI_BUILDING_NAME
-Start=94
+Start=97
 Len=30
 ItemType=SubItem
 DataType=Alpha
@@ -166,7 +178,7 @@ DataType=Alpha
 [Item]
 Label=Subdivision Name
 Name=BI_SUBDIVISION_NAME
-Start=124
+Start=127
 Len=30
 ItemType=SubItem
 DataType=Alpha
@@ -174,7 +186,7 @@ DataType=Alpha
 [Item]
 Label=Street Name
 Name=BI_STREET_NAME
-Start=154
+Start=157
 Len=30
 ItemType=SubItem
 DataType=Alpha
@@ -182,7 +194,7 @@ DataType=Alpha
 [Item]
 Label=Sitio/Purok Name
 Name=BI_SITIO_PUROK_NAME
-Start=184
+Start=187
 Len=30
 ItemType=SubItem
 DataType=Alpha
@@ -212,30 +224,6 @@ Label=Name
 Name=BI_NAME
 Start=23
 Len=75
-DataType=Alpha
-
-[Item]
-Label=Firstname
-Name=BI_FNAME
-Start=23
-Len=25
-ItemType=SubItem
-DataType=Alpha
-
-[Item]
-Label=Middlename
-Name=BI_MNAME
-Start=48
-Len=25
-ItemType=SubItem
-DataType=Alpha
-
-[Item]
-Label=Lastname
-Name=BI_LNAME
-Start=73
-Len=25
-ItemType=SubItem
 DataType=Alpha
 
 [Item]
@@ -728,7 +716,7 @@ ZeroFill=Yes
 [ValueSet]
 Label=Interview Introduction
 Name=BI_INTRODUCTION_BEGIN_VS
-Value=1;Modify questionnaire
+Value=1;Begin interview
 
 [ValueSet]
 Label=Interview Introduction
@@ -739,7 +727,7 @@ Value=1;Continue interview from first question
 [ValueSet]
 Label=Interview Introduction
 Name=BI_INTRODUCTION_MODIFY_VS
-Value=1;Begin interview
+Value=1;Modify interview
 
 [Item]
 Label=Population Section

@@ -1363,3 +1363,857 @@ System messages:
 
 CSPRO Executor Normal End
 --------------------------------------------------------------------------------
+Application     C:\Users\Cristina\Dropbox (Old)\TanayLMIS\LMIS\TanayBasicDatav20\Menu\Menu.ent
+Type            ENTRY
+Input Data      <<Empty>>
+External        TBD_GEO_DICT=<<CSPro DB>> C:\Users\Cristina\Dropbox (Old)\TanayLMIS\LMIS\TanayBasicDatav20\Data\Geocode2.csdb
+External        TBD_COUNTRY_DICT=<<Text File>> C:\Users\Cristina\Dropbox (Old)\TanayLMIS\LMIS\TanayBasicDatav20\Data\Country.dat
+External        TBD_ASSIGNMENTS_DICT=<<CSPro DB>> C:\Users\Cristina\Dropbox (Old)\TanayLMIS\LMIS\TanayBasicDatav20\Data\Assignments.csdb
+External        TBD_INHABITANT_DICT=<<CSPro DB>> C:\Users\Cristina\Dropbox (Old)\TanayLMIS\LMIS\TanayBasicDatav20\Data\Population.csdb
+External        TBD_STAFF_DICT=<<CSPro DB>> C:\Users\Cristina\Dropbox (Old)\TanayLMIS\LMIS\TanayBasicDatav20\Data\Staff.csdb
+<File>          PFFFILE=
+<File>          REPORT_FILE=
+
+Date            Dec 24, 2018
+Start Time      18:56:35
+End Time        19:02:11
+
+CSPRO Process Summary
+
+System messages:
+
+ Number    Frequency   Message text
+ ------    ---------   ------------
+  48000            2   Invalid expression (%s) in CAPI text             
+  99990            2   Operator entered a value out of range            
+
+User unnumbered messages:
+
+   Line    Freq  Pct.  Message text                                        Denom
+   ----    ----  ----  ------------                                        -----
+    681       2    -   Confirm that %06d is the correct code                   -
+   1334       1    -   Staff PIN code of %s is not yet set                     -
+   1390       1    -   %s successfully added as an interviewer                 -
+   1399       2    -   The name is the same as before and has not been c       -
+   1534       2    -   Are you sure you want to assign %s to %s?               -
+   1552       1    -   %s successfully assigned to %s                          -
+
+CSPRO Executor Normal End
+--------------------------------------------------------------------------------
+Application     C:\Users\Cristina\Dropbox (Old)\TanayLMIS\LMIS\TanayBasicDatav20\Menu\Menu.ent
+Type            ENTRY
+Input Data      <<Empty>>
+External        TBD_GEO_DICT=<<CSPro DB>> C:\Users\Cristina\Dropbox (Old)\TanayLMIS\LMIS\TanayBasicDatav20\Data\Geocode2.csdb
+External        TBD_COUNTRY_DICT=<<Text File>> C:\Users\Cristina\Dropbox (Old)\TanayLMIS\LMIS\TanayBasicDatav20\Data\Country.dat
+External        TBD_ASSIGNMENTS_DICT=<<CSPro DB>> C:\Users\Cristina\Dropbox (Old)\TanayLMIS\LMIS\TanayBasicDatav20\Data\Assignments.csdb
+External        TBD_INHABITANT_DICT=<<CSPro DB>> C:\Users\Cristina\Dropbox (Old)\TanayLMIS\LMIS\TanayBasicDatav20\Data\Population.csdb
+External        TBD_STAFF_DICT=<<CSPro DB>> C:\Users\Cristina\Dropbox (Old)\TanayLMIS\LMIS\TanayBasicDatav20\Data\Staff.csdb
+<File>          PFFFILE=
+<File>          REPORT_FILE=
+
+Date            Dec 24, 2018
+Start Time      19:02:19
+End Time        19:06:02
+
+CSPRO Process Summary
+
+System messages:
+
+ Number    Frequency   Message text
+ ------    ---------   ------------
+  48000            1   Invalid expression (%s) in CAPI text             
+
+CSPRO Executor Normal End
+--------------------------------------------------------------------------------
+Application     C:\Users\Cristina\Dropbox (Old)\TanayLMIS\LMIS\TanayBasicDatav20\Menu\Menu.ent
+Type            ENTRY
+Input Data      <<Empty>>
+External        TBD_GEO_DICT=<<CSPro DB>> C:\Users\Cristina\Dropbox (Old)\TanayLMIS\LMIS\TanayBasicDatav20\Data\Geocode2.csdb
+External        TBD_COUNTRY_DICT=<<Text File>> C:\Users\Cristina\Dropbox (Old)\TanayLMIS\LMIS\TanayBasicDatav20\Data\Country.dat
+External        TBD_ASSIGNMENTS_DICT=<<CSPro DB>> C:\Users\Cristina\Dropbox (Old)\TanayLMIS\LMIS\TanayBasicDatav20\Data\Assignments.csdb
+External        TBD_INHABITANT_DICT=<<CSPro DB>> C:\Users\Cristina\Dropbox (Old)\TanayLMIS\LMIS\TanayBasicDatav20\Data\Population.csdb
+External        TBD_STAFF_DICT=<<CSPro DB>> C:\Users\Cristina\Dropbox (Old)\TanayLMIS\LMIS\TanayBasicDatav20\Data\Staff.csdb
+<File>          PFFFILE=
+<File>          REPORT_FILE=
+
+Date            Dec 24, 2018
+Start Time      19:06:09
+End Time        19:06:23
+
+CSPRO Process Summary
+
+CSPRO Executor Normal End
+--------------------------------------------------------------------------------
+Application     C:\Users\Cristina\Dropbox (Old)\TanayLMIS\LMIS\TanayBasicDatav20\Menu\Menu.ent
+Type            ENTRY
+Input Data      <<Empty>>
+External        TBD_GEO_DICT=<<CSPro DB>> C:\Users\Cristina\Dropbox (Old)\TanayLMIS\LMIS\TanayBasicDatav20\Data\Geocode2.csdb
+External        TBD_COUNTRY_DICT=<<Text File>> C:\Users\Cristina\Dropbox (Old)\TanayLMIS\LMIS\TanayBasicDatav20\Data\Country.dat
+External        TBD_ASSIGNMENTS_DICT=<<CSPro DB>> C:\Users\Cristina\Dropbox (Old)\TanayLMIS\LMIS\TanayBasicDatav20\Data\Assignments.csdb
+External        TBD_INHABITANT_DICT=<<CSPro DB>> C:\Users\Cristina\Dropbox (Old)\TanayLMIS\LMIS\TanayBasicDatav20\Data\Population.csdb
+External        TBD_STAFF_DICT=<<CSPro DB>> C:\Users\Cristina\Dropbox (Old)\TanayLMIS\LMIS\TanayBasicDatav20\Data\Staff.csdb
+<File>          PFFFILE=
+<File>          REPORT_FILE=
+
+Date            Dec 24, 2018
+Start Time      19:09:49
+End Time        19:09:55
+
+CSPRO Process Summary
+
+CSPRO Executor Normal End
+--------------------------------------------------------------------------------
+Application     C:\Users\Cristina\Dropbox (Old)\TanayLMIS\LMIS\TanayBasicDatav20\Menu\Menu.ent
+Type            ENTRY
+Input Data      <<Empty>>
+External        TBD_GEO_DICT=<<CSPro DB>> C:\Users\Cristina\Dropbox (Old)\TanayLMIS\LMIS\TanayBasicDatav20\Data\Geocode2.csdb
+External        TBD_COUNTRY_DICT=<<Text File>> C:\Users\Cristina\Dropbox (Old)\TanayLMIS\LMIS\TanayBasicDatav20\Data\Country.dat
+External        TBD_ASSIGNMENTS_DICT=<<CSPro DB>> C:\Users\Cristina\Dropbox (Old)\TanayLMIS\LMIS\TanayBasicDatav20\Data\Assignments.csdb
+External        TBD_INHABITANT_DICT=<<CSPro DB>> C:\Users\Cristina\Dropbox (Old)\TanayLMIS\LMIS\TanayBasicDatav20\Data\Population.csdb
+External        TBD_STAFF_DICT=<<CSPro DB>> C:\Users\Cristina\Dropbox (Old)\TanayLMIS\LMIS\TanayBasicDatav20\Data\Staff.csdb
+<File>          PFFFILE=
+<File>          REPORT_FILE=
+
+Date            Dec 24, 2018
+Start Time      19:10:15
+End Time        19:10:30
+
+CSPRO Process Summary
+
+User unnumbered messages:
+
+   Line    Freq  Pct.  Message text                                        Denom
+   ----    ----  ----  ------------                                        -----
+   1223       1    -   Are you sure that you want to add a household num       -
+
+CSPRO Executor Normal End
+--------------------------------------------------------------------------------
+Application     C:\Users\Cristina\Dropbox (Old)\TanayLMIS\LMIS\TanayBasicDatav20\Menu\Menu.ent
+Type            ENTRY
+Input Data      <<Empty>>
+External        TBD_GEO_DICT=<<CSPro DB>> C:\Users\Cristina\Dropbox (Old)\TanayLMIS\LMIS\TanayBasicDatav20\Data\Geocode2.csdb
+External        TBD_COUNTRY_DICT=<<Text File>> C:\Users\Cristina\Dropbox (Old)\TanayLMIS\LMIS\TanayBasicDatav20\Data\Country.dat
+External        TBD_ASSIGNMENTS_DICT=<<CSPro DB>> C:\Users\Cristina\Dropbox (Old)\TanayLMIS\LMIS\TanayBasicDatav20\Data\Assignments.csdb
+External        TBD_INHABITANT_DICT=<<CSPro DB>> C:\Users\Cristina\Dropbox (Old)\TanayLMIS\LMIS\TanayBasicDatav20\Data\Population.csdb
+External        TBD_STAFF_DICT=<<CSPro DB>> C:\Users\Cristina\Dropbox (Old)\TanayLMIS\LMIS\TanayBasicDatav20\Data\Staff.csdb
+<File>          PFFFILE=
+<File>          REPORT_FILE=
+
+Date            Dec 24, 2018
+Start Time      19:11:39
+End Time        19:11:43
+
+CSPRO Process Summary
+
+User unnumbered messages:
+
+   Line    Freq  Pct.  Message text                                        Denom
+   ----    ----  ----  ------------                                        -----
+   1223       1    -   Are you sure that you want to add a household num       -
+
+CSPRO Executor Normal End
+--------------------------------------------------------------------------------
+Application     C:\Users\Cristina\Dropbox (Old)\TanayLMIS\LMIS\TanayBasicDatav20\Menu\Menu.ent
+Type            ENTRY
+Input Data      <<Empty>>
+External        TBD_GEO_DICT=<<CSPro DB>> C:\Users\Cristina\Dropbox (Old)\TanayLMIS\LMIS\TanayBasicDatav20\Data\Geocode2.csdb
+External        TBD_COUNTRY_DICT=<<Text File>> C:\Users\Cristina\Dropbox (Old)\TanayLMIS\LMIS\TanayBasicDatav20\Data\Country.dat
+External        TBD_ASSIGNMENTS_DICT=<<CSPro DB>> C:\Users\Cristina\Dropbox (Old)\TanayLMIS\LMIS\TanayBasicDatav20\Data\Assignments.csdb
+External        TBD_INHABITANT_DICT=<<CSPro DB>> C:\Users\Cristina\Dropbox (Old)\TanayLMIS\LMIS\TanayBasicDatav20\Data\Population.csdb
+External        TBD_STAFF_DICT=<<CSPro DB>> C:\Users\Cristina\Dropbox (Old)\TanayLMIS\LMIS\TanayBasicDatav20\Data\Staff.csdb
+<File>          PFFFILE=
+<File>          REPORT_FILE=
+
+Date            Dec 24, 2018
+Start Time      19:16:27
+End Time        19:16:31
+
+CSPRO Process Summary
+
+User unnumbered messages:
+
+   Line    Freq  Pct.  Message text                                        Denom
+   ----    ----  ----  ------------                                        -----
+   1223       1    -   Are you sure that you want to add a household num       -
+
+CSPRO Executor Normal End
+--------------------------------------------------------------------------------
+Application     C:\Users\Cristina\Dropbox (Old)\TanayLMIS\LMIS\TanayBasicDatav20\Menu\Menu.ent
+Type            ENTRY
+Input Data      <<Empty>>
+External        TBD_GEO_DICT=<<CSPro DB>> C:\Users\Cristina\Dropbox (Old)\TanayLMIS\LMIS\TanayBasicDatav20\Data\Geocode2.csdb
+External        TBD_COUNTRY_DICT=<<Text File>> C:\Users\Cristina\Dropbox (Old)\TanayLMIS\LMIS\TanayBasicDatav20\Data\Country.dat
+External        TBD_ASSIGNMENTS_DICT=<<CSPro DB>> C:\Users\Cristina\Dropbox (Old)\TanayLMIS\LMIS\TanayBasicDatav20\Data\Assignments.csdb
+External        TBD_INHABITANT_DICT=<<CSPro DB>> C:\Users\Cristina\Dropbox (Old)\TanayLMIS\LMIS\TanayBasicDatav20\Data\Population.csdb
+External        TBD_STAFF_DICT=<<CSPro DB>> C:\Users\Cristina\Dropbox (Old)\TanayLMIS\LMIS\TanayBasicDatav20\Data\Staff.csdb
+<File>          PFFFILE=
+<File>          REPORT_FILE=
+
+Date            Dec 24, 2018
+Start Time      19:27:27
+End Time        19:27:31
+
+CSPRO Process Summary
+
+User unnumbered messages:
+
+   Line    Freq  Pct.  Message text                                        Denom
+   ----    ----  ----  ------------                                        -----
+   1223       1    -   Are you sure that you want to add a household num       -
+
+CSPRO Executor Normal End
+--------------------------------------------------------------------------------
+Application     C:\Users\Cristina\Dropbox (Old)\TanayLMIS\LMIS\TanayBasicDatav20\Menu\Menu.ent
+Type            ENTRY
+Input Data      <<Empty>>
+External        TBD_GEO_DICT=<<CSPro DB>> C:\Users\Cristina\Dropbox (Old)\TanayLMIS\LMIS\TanayBasicDatav20\Data\Geocode2.csdb
+External        TBD_COUNTRY_DICT=<<Text File>> C:\Users\Cristina\Dropbox (Old)\TanayLMIS\LMIS\TanayBasicDatav20\Data\Country.dat
+External        TBD_ASSIGNMENTS_DICT=<<CSPro DB>> C:\Users\Cristina\Dropbox (Old)\TanayLMIS\LMIS\TanayBasicDatav20\Data\Assignments.csdb
+External        TBD_INHABITANT_DICT=<<CSPro DB>> C:\Users\Cristina\Dropbox (Old)\TanayLMIS\LMIS\TanayBasicDatav20\Data\Population.csdb
+External        TBD_STAFF_DICT=<<CSPro DB>> C:\Users\Cristina\Dropbox (Old)\TanayLMIS\LMIS\TanayBasicDatav20\Data\Staff.csdb
+<File>          PFFFILE=
+<File>          REPORT_FILE=
+
+Date            Dec 24, 2018
+Start Time      19:28:06
+End Time        19:28:09
+
+CSPRO Process Summary
+
+User unnumbered messages:
+
+   Line    Freq  Pct.  Message text                                        Denom
+   ----    ----  ----  ------------                                        -----
+   1223       1    -   Are you sure that you want to add a household num       -
+
+CSPRO Executor Normal End
+--------------------------------------------------------------------------------
+Application     C:\Users\Cristina\Dropbox (Old)\TanayLMIS\LMIS\TanayBasicDatav20\Menu\Menu.ent
+Type            ENTRY
+Input Data      <<Empty>>
+External        TBD_GEO_DICT=<<CSPro DB>> C:\Users\Cristina\Dropbox (Old)\TanayLMIS\LMIS\TanayBasicDatav20\Data\Geocode2.csdb
+External        TBD_COUNTRY_DICT=<<Text File>> C:\Users\Cristina\Dropbox (Old)\TanayLMIS\LMIS\TanayBasicDatav20\Data\Country.dat
+External        TBD_ASSIGNMENTS_DICT=<<CSPro DB>> C:\Users\Cristina\Dropbox (Old)\TanayLMIS\LMIS\TanayBasicDatav20\Data\Assignments.csdb
+External        TBD_INHABITANT_DICT=<<CSPro DB>> C:\Users\Cristina\Dropbox (Old)\TanayLMIS\LMIS\TanayBasicDatav20\Data\Population.csdb
+External        TBD_STAFF_DICT=<<CSPro DB>> C:\Users\Cristina\Dropbox (Old)\TanayLMIS\LMIS\TanayBasicDatav20\Data\Staff.csdb
+<File>          PFFFILE=
+<File>          REPORT_FILE=
+
+Date            Dec 24, 2018
+Start Time      19:29:37
+End Time        19:29:41
+
+CSPRO Process Summary
+
+User unnumbered messages:
+
+   Line    Freq  Pct.  Message text                                        Denom
+   ----    ----  ----  ------------                                        -----
+   1223       1    -   Are you sure that you want to add a household num       -
+
+CSPRO Executor Normal End
+--------------------------------------------------------------------------------
+Application     C:\Users\Cristina\Dropbox (Old)\TanayLMIS\LMIS\TanayBasicDatav20\Menu\Menu.ent
+Type            ENTRY
+Input Data      <<Empty>>
+External        TBD_GEO_DICT=<<CSPro DB>> C:\Users\Cristina\Dropbox (Old)\TanayLMIS\LMIS\TanayBasicDatav20\Data\Geocode2.csdb
+External        TBD_COUNTRY_DICT=<<Text File>> C:\Users\Cristina\Dropbox (Old)\TanayLMIS\LMIS\TanayBasicDatav20\Data\Country.dat
+External        TBD_ASSIGNMENTS_DICT=<<CSPro DB>> C:\Users\Cristina\Dropbox (Old)\TanayLMIS\LMIS\TanayBasicDatav20\Data\Assignments.csdb
+External        TBD_INHABITANT_DICT=<<CSPro DB>> C:\Users\Cristina\Dropbox (Old)\TanayLMIS\LMIS\TanayBasicDatav20\Data\Population.csdb
+External        TBD_STAFF_DICT=<<CSPro DB>> C:\Users\Cristina\Dropbox (Old)\TanayLMIS\LMIS\TanayBasicDatav20\Data\Staff.csdb
+<File>          PFFFILE=
+<File>          REPORT_FILE=
+
+Date            Dec 24, 2018
+Start Time      20:19:10
+End Time        20:19:28
+
+CSPRO Process Summary
+
+User unnumbered messages:
+
+   Line    Freq  Pct.  Message text                                        Denom
+   ----    ----  ----  ------------                                        -----
+   1224       1    -   Are you sure that you want to add a household num       -
+
+CSPRO Executor Normal End
+--------------------------------------------------------------------------------
+Application     C:\Users\Cristina\Dropbox (Old)\TanayLMIS\LMIS\TanayBasicDatav20\Menu\Menu.ent
+Type            ENTRY
+Input Data      <<Empty>>
+External        TBD_GEO_DICT=<<CSPro DB>> C:\Users\Cristina\Dropbox (Old)\TanayLMIS\LMIS\TanayBasicDatav20\Data\Geocode2.csdb
+External        TBD_COUNTRY_DICT=<<Text File>> C:\Users\Cristina\Dropbox (Old)\TanayLMIS\LMIS\TanayBasicDatav20\Data\Country.dat
+External        TBD_ASSIGNMENTS_DICT=<<CSPro DB>> C:\Users\Cristina\Dropbox (Old)\TanayLMIS\LMIS\TanayBasicDatav20\Data\Assignments.csdb
+External        TBD_INHABITANT_DICT=<<CSPro DB>> C:\Users\Cristina\Dropbox (Old)\TanayLMIS\LMIS\TanayBasicDatav20\Data\Population.csdb
+External        TBD_STAFF_DICT=<<CSPro DB>> C:\Users\Cristina\Dropbox (Old)\TanayLMIS\LMIS\TanayBasicDatav20\Data\Staff.csdb
+<File>          PFFFILE=
+<File>          REPORT_FILE=
+
+Date            Dec 26, 2018
+Start Time      19:41:57
+End Time        19:42:24
+
+CSPRO Process Summary
+
+User unnumbered messages:
+
+   Line    Freq  Pct.  Message text                                        Denom
+   ----    ----  ----  ------------                                        -----
+   1224       1    -   Are you sure that you want to add a household num       -
+
+CSPRO Executor Normal End
+--------------------------------------------------------------------------------
+Application     C:\Users\Cristina\Dropbox (Old)\TanayLMIS\LMIS\TanayBasicDatav20\Menu\Menu.ent
+Type            ENTRY
+Input Data      <<Empty>>
+External        TBD_GEO_DICT=<<CSPro DB>> C:\Users\Cristina\Dropbox (Old)\TanayLMIS\LMIS\TanayBasicDatav20\Data\Geocode2.csdb
+External        TBD_COUNTRY_DICT=<<Text File>> C:\Users\Cristina\Dropbox (Old)\TanayLMIS\LMIS\TanayBasicDatav20\Data\Country.dat
+External        TBD_ASSIGNMENTS_DICT=<<CSPro DB>> C:\Users\Cristina\Dropbox (Old)\TanayLMIS\LMIS\TanayBasicDatav20\Data\Assignments.csdb
+External        TBD_INHABITANT_DICT=<<CSPro DB>> C:\Users\Cristina\Dropbox (Old)\TanayLMIS\LMIS\TanayBasicDatav20\Data\Population.csdb
+External        TBD_STAFF_DICT=<<CSPro DB>> C:\Users\Cristina\Dropbox (Old)\TanayLMIS\LMIS\TanayBasicDatav20\Data\Staff.csdb
+<File>          PFFFILE=
+<File>          REPORT_FILE=
+
+Date            Dec 26, 2018
+Start Time      19:42:52
+End Time        19:45:44
+
+CSPRO Process Summary
+
+User unnumbered messages:
+
+   Line    Freq  Pct.  Message text                                        Denom
+   ----    ----  ----  ------------                                        -----
+   1093       1    -   You are already assigned to this district.              -
+   1453       1    -   %s already has %d assignment. Are you sure you wa       -
+
+CSPRO Executor Normal End
+--------------------------------------------------------------------------------
+Application     C:\Users\Cristina\Dropbox (Old)\TanayLMIS\LMIS\TanayBasicDatav20\Menu\Menu.ent
+Type            ENTRY
+Input Data      <<Empty>>
+External        TBD_GEO_DICT=<<CSPro DB>> C:\Users\Cristina\Dropbox (Old)\TanayLMIS\LMIS\TanayBasicDatav20\Data\Geocode2.csdb
+External        TBD_COUNTRY_DICT=<<Text File>> C:\Users\Cristina\Dropbox (Old)\TanayLMIS\LMIS\TanayBasicDatav20\Data\Country.dat
+External        TBD_ASSIGNMENTS_DICT=<<CSPro DB>> C:\Users\Cristina\Dropbox (Old)\TanayLMIS\LMIS\TanayBasicDatav20\Data\Assignments.csdb
+External        TBD_INHABITANT_DICT=<<CSPro DB>> C:\Users\Cristina\Dropbox (Old)\TanayLMIS\LMIS\TanayBasicDatav20\Data\Population.csdb
+External        TBD_STAFF_DICT=<<CSPro DB>> C:\Users\Cristina\Dropbox (Old)\TanayLMIS\LMIS\TanayBasicDatav20\Data\staff.csdb
+<File>          PFFFILE=
+<File>          REPORT_FILE=
+
+Date            Dec 26, 2018
+Start Time      19:46:33
+End Time        19:48:31
+
+CSPRO Process Summary
+
+System messages:
+
+ Number    Frequency   Message text
+ ------    ---------   ------------
+  99990            1   Operator entered a value out of range            
+
+User unnumbered messages:
+
+   Line    Freq  Pct.  Message text                                        Denom
+   ----    ----  ----  ------------                                        -----
+    683       1    -   Confirm that %06d is the correct code                   -
+   1393       1    -   %s successfully added as an interviewer                 -
+   1402       1    -   The name is the same as before and has not been c       -
+
+CSPRO Executor Normal End
+--------------------------------------------------------------------------------
+Application     C:\Users\Cristina\Dropbox (Old)\TanayLMIS\LMIS\TanayBasicDatav20\Menu\Menu.ent
+Type            ENTRY
+Input Data      <<Empty>>
+External        TBD_GEO_DICT=<<CSPro DB>> C:\Users\Cristina\Dropbox (Old)\TanayLMIS\LMIS\TanayBasicDatav20\Data\Geocode2.csdb
+External        TBD_COUNTRY_DICT=<<Text File>> C:\Users\Cristina\Dropbox (Old)\TanayLMIS\LMIS\TanayBasicDatav20\Data\Country.dat
+External        TBD_ASSIGNMENTS_DICT=<<CSPro DB>> C:\Users\Cristina\Dropbox (Old)\TanayLMIS\LMIS\TanayBasicDatav20\Data\Assignments.csdb
+External        TBD_INHABITANT_DICT=<<CSPro DB>> C:\Users\Cristina\Dropbox (Old)\TanayLMIS\LMIS\TanayBasicDatav20\Data\Population.csdb
+External        TBD_STAFF_DICT=<<CSPro DB>> C:\Users\Cristina\Dropbox (Old)\TanayLMIS\LMIS\TanayBasicDatav20\Data\staff.csdb
+<File>          PFFFILE=
+<File>          REPORT_FILE=
+
+Date            Dec 26, 2018
+Start Time      20:17:06
+End Time        20:17:54
+
+CSPRO Process Summary
+
+System messages:
+
+ Number    Frequency   Message text
+ ------    ---------   ------------
+  99990            1   Operator entered a value out of range            
+
+User unnumbered messages:
+
+   Line    Freq  Pct.  Message text                                        Denom
+   ----    ----  ----  ------------                                        -----
+    683       1    -   Confirm that %06d is the correct code                   -
+   1224       1    -   Are you sure that you want to add a household num       -
+   1537       1    -   Are you sure you want to assign %s to %s?               -
+   1555       1    -   %s successfully assigned to %s                          -
+
+CSPRO Executor Normal End
+--------------------------------------------------------------------------------
+Application     C:\Users\Cristina\Dropbox (Old)\TanayLMIS\LMIS\TanayBasicDatav20\Menu\Menu.ent
+Type            ENTRY
+Input Data      <<Empty>>
+External        TBD_GEO_DICT=<<CSPro DB>> C:\Users\Cristina\Dropbox (Old)\TanayLMIS\LMIS\TanayBasicDatav20\Data\Geocode2.csdb
+External        TBD_COUNTRY_DICT=<<Text File>> C:\Users\Cristina\Dropbox (Old)\TanayLMIS\LMIS\TanayBasicDatav20\Data\Country.dat
+External        TBD_ASSIGNMENTS_DICT=<<CSPro DB>> C:\Users\Cristina\Dropbox (Old)\TanayLMIS\LMIS\TanayBasicDatav20\Data\Assignments.csdb
+External        TBD_INHABITANT_DICT=<<CSPro DB>> C:\Users\Cristina\Dropbox (Old)\TanayLMIS\LMIS\TanayBasicDatav20\Data\Population.csdb
+External        TBD_STAFF_DICT=<<CSPro DB>> C:\Users\Cristina\Dropbox (Old)\TanayLMIS\LMIS\TanayBasicDatav20\Data\staff.csdb
+<File>          PFFFILE=
+<File>          REPORT_FILE=
+
+Date            Dec 26, 2018
+Start Time      20:53:32
+End Time        20:53:36
+
+CSPRO Process Summary
+
+User unnumbered messages:
+
+   Line    Freq  Pct.  Message text                                        Denom
+   ----    ----  ----  ------------                                        -----
+   1224       1    -   Are you sure that you want to add a household num       -
+
+CSPRO Executor Normal End
+--------------------------------------------------------------------------------
+Application     C:\Users\Cristina\Dropbox (Old)\TanayLMIS\LMIS\TanayBasicDatav20\Menu\Menu.ent
+Type            ENTRY
+Input Data      <<Empty>>
+External        TBD_COUNTRY_DICT=<<Text File>> C:\Users\Cristina\Dropbox (Old)\TanayLMIS\LMIS\TanayBasicDatav20\Data\Country.dat
+External        TBD_ASSIGNMENTS_DICT=<<CSPro DB>> C:\Users\Cristina\Dropbox (Old)\TanayLMIS\LMIS\TanayBasicDatav20\Data\Assignments.csdb
+External        TBD_INHABITANT_DICT=<<CSPro DB>> C:\Users\Cristina\Dropbox (Old)\TanayLMIS\LMIS\TanayBasicDatav20\Data\Population.csdb
+External        TBD_STAFF_DICT=<<CSPro DB>> C:\Users\Cristina\Dropbox (Old)\TanayLMIS\LMIS\TanayBasicDatav20\Data\staff.csdb
+External        TBD_GEO_DICT=<<CSPro DB>> C:\Users\Cristina\Dropbox (Old)\TanayLMIS\LMIS\TanayBasicDatav20\Data\Geocode.csdb
+<File>          PFFFILE=
+<File>          REPORT_FILE=
+
+Date            Dec 26, 2018
+Start Time      23:05:59
+End Time        23:08:36
+
+CSPRO Process Summary
+
+System messages:
+
+ Number    Frequency   Message text
+ ------    ---------   ------------
+  99990            1   Operator entered a value out of range            
+
+User unnumbered messages:
+
+   Line    Freq  Pct.  Message text                                        Denom
+   ----    ----  ----  ------------                                        -----
+   1093       1    -   You are already assigned to this district.              -
+   1224       1    -   Are you sure that you want to add a household num       -
+   1393       1    -   %s successfully added as an interviewer                 -
+
+CSPRO Executor Normal End
+--------------------------------------------------------------------------------
+Application     C:\Users\Cristina\Dropbox (Old)\TanayLMIS\LMIS\TanayBasicDatav20\Menu\Menu.ent
+Type            ENTRY
+Input Data      <<Empty>>
+External        TBD_COUNTRY_DICT=<<Text File>> C:\Users\Cristina\Dropbox (Old)\TanayLMIS\LMIS\TanayBasicDatav20\Data\Country.dat
+External        TBD_ASSIGNMENTS_DICT=<<CSPro DB>> C:\Users\Cristina\Dropbox (Old)\TanayLMIS\LMIS\TanayBasicDatav20\Data\Assignments.csdb
+External        TBD_INHABITANT_DICT=<<CSPro DB>> C:\Users\Cristina\Dropbox (Old)\TanayLMIS\LMIS\TanayBasicDatav20\Data\Population.csdb
+External        TBD_STAFF_DICT=<<CSPro DB>> C:\Users\Cristina\Dropbox (Old)\TanayLMIS\LMIS\TanayBasicDatav20\Data\staff.csdb
+External        TBD_GEO_DICT=<<CSPro DB>> C:\Users\Cristina\Dropbox (Old)\TanayLMIS\LMIS\TanayBasicDatav20\Data\Geocode.csdb
+<File>          PFFFILE=
+<File>          REPORT_FILE=
+
+Date            Dec 26, 2018
+Start Time      23:09:27
+End Time        23:09:31
+
+CSPRO Process Summary
+
+CSPRO Executor Normal End
+--------------------------------------------------------------------------------
+Application     C:\Users\Cristina\Dropbox (Old)\TanayLMIS\LMIS\TanayBasicDatav20\Menu\Menu.ent
+Type            ENTRY
+Input Data      <<Empty>>
+External        TBD_COUNTRY_DICT=<<Text File>> C:\Users\Cristina\Dropbox (Old)\TanayLMIS\LMIS\TanayBasicDatav20\Data\Country.dat
+External        TBD_ASSIGNMENTS_DICT=<<CSPro DB>> C:\Users\Cristina\Dropbox (Old)\TanayLMIS\LMIS\TanayBasicDatav20\Data\Assignment.csdb
+External        TBD_INHABITANT_DICT=<<CSPro DB>> C:\Users\Cristina\Dropbox (Old)\TanayLMIS\LMIS\TanayBasicDatav20\Data\Population.csdb
+External        TBD_STAFF_DICT=<<CSPro DB>> C:\Users\Cristina\Dropbox (Old)\TanayLMIS\LMIS\TanayBasicDatav20\Data\Staff.csdb
+External        TBD_GEO_DICT=<<CSPro DB>> C:\Users\Cristina\Dropbox (Old)\TanayLMIS\LMIS\TanayBasicDatav20\Data\Geocode.csdb
+<File>          PFFFILE=
+<File>          REPORT_FILE=
+
+Date            Dec 26, 2018
+Start Time      23:12:33
+End Time        23:14:38
+
+CSPRO Process Summary
+
+User unnumbered messages:
+
+   Line    Freq  Pct.  Message text                                        Denom
+   ----    ----  ----  ------------                                        -----
+    683       2    -   Confirm that %06d is the correct code                   -
+   1224       1    -   Are you sure that you want to add a household num       -
+   1393       1    -   %s successfully added as an interviewer                 -
+   1537       1    -   Are you sure you want to assign %s to %s?               -
+   1555       1    -   %s successfully assigned to %s                          -
+
+CSPRO Executor Normal End
+--------------------------------------------------------------------------------
+Application     C:\Users\Cristina\Dropbox (Old)\TanayLMIS\LMIS\TanayBasicDatav20\Menu\Menu.ent
+Type            ENTRY
+Input Data      <<Empty>>
+External        TBD_COUNTRY_DICT=<<Text File>> C:\Users\Cristina\Dropbox (Old)\TanayLMIS\LMIS\TanayBasicDatav20\Data\Country.dat
+External        TBD_INHABITANT_DICT=<<CSPro DB>> C:\Users\Cristina\Dropbox (Old)\TanayLMIS\LMIS\TanayBasicDatav20\Data\Population.csdb
+External        TBD_STAFF_DICT=<<CSPro DB>> C:\Users\Cristina\Dropbox (Old)\TanayLMIS\LMIS\TanayBasicDatav20\Data\Staff.csdb
+External        TBD_GEO_DICT=<<CSPro DB>> C:\Users\Cristina\Dropbox (Old)\TanayLMIS\LMIS\TanayBasicDatav20\Data\Geocode.csdb
+External        TBD_ASSIGNMENTS_DICT=<<CSPro DB>> C:\Users\Cristina\Dropbox (Old)\TanayLMIS\LMIS\TanayBasicDatav20\Data\Assignment.csdb
+<File>          PFFFILE=
+<File>          REPORT_FILE=
+
+Date            Dec 26, 2018
+Start Time      23:24:00
+End Time        23:24:13
+
+CSPRO Process Summary
+
+User unnumbered messages:
+
+   Line    Freq  Pct.  Message text                                        Denom
+   ----    ----  ----  ------------                                        -----
+   1224       1    -   Are you sure that you want to add a household num       -
+
+CSPRO Executor Normal End
+--------------------------------------------------------------------------------
+Application     C:\Users\Cristina\Dropbox (Old)\TanayLMIS\LMIS\TanayBasicDatav20\Menu\Menu.ent
+Type            ENTRY
+Input Data      <<Empty>>
+External        TBD_COUNTRY_DICT=<<Text File>> C:\Users\Cristina\Dropbox (Old)\TanayLMIS\LMIS\TanayBasicDatav20\Data\Country.dat
+External        TBD_INHABITANT_DICT=<<CSPro DB>> C:\Users\Cristina\Dropbox (Old)\TanayLMIS\LMIS\TanayBasicDatav20\Data\Population.csdb
+External        TBD_STAFF_DICT=<<CSPro DB>> C:\Users\Cristina\Dropbox (Old)\TanayLMIS\LMIS\TanayBasicDatav20\Data\Staff.csdb
+External        TBD_GEO_DICT=<<CSPro DB>> C:\Users\Cristina\Dropbox (Old)\TanayLMIS\LMIS\TanayBasicDatav20\Data\Geocode.csdb
+External        TBD_ASSIGNMENTS_DICT=<<CSPro DB>> C:\Users\Cristina\Dropbox (Old)\TanayLMIS\LMIS\TanayBasicDatav20\Data\Assignment.csdb
+<File>          PFFFILE=
+<File>          REPORT_FILE=
+
+Date            Dec 26, 2018
+Start Time      23:30:50
+End Time        23:30:57
+
+CSPRO Process Summary
+
+User unnumbered messages:
+
+   Line    Freq  Pct.  Message text                                        Denom
+   ----    ----  ----  ------------                                        -----
+   1224       1    -   Are you sure that you want to add a household num       -
+
+CSPRO Executor Normal End
+--------------------------------------------------------------------------------
+Application     C:\Users\Cristina\Dropbox (Old)\TanayLMIS\LMIS\TanayBasicDatav20\Menu\Menu.ent
+Type            ENTRY
+Input Data      <<Empty>>
+External        TBD_COUNTRY_DICT=<<Text File>> C:\Users\Cristina\Dropbox (Old)\TanayLMIS\LMIS\TanayBasicDatav20\Data\Country.dat
+External        TBD_INHABITANT_DICT=<<CSPro DB>> C:\Users\Cristina\Dropbox (Old)\TanayLMIS\LMIS\TanayBasicDatav20\Data\Population.csdb
+External        TBD_STAFF_DICT=<<CSPro DB>> C:\Users\Cristina\Dropbox (Old)\TanayLMIS\LMIS\TanayBasicDatav20\Data\Staff.csdb
+External        TBD_GEO_DICT=<<CSPro DB>> C:\Users\Cristina\Dropbox (Old)\TanayLMIS\LMIS\TanayBasicDatav20\Data\Geocode.csdb
+External        TBD_ASSIGNMENTS_DICT=<<CSPro DB>> C:\Users\Cristina\Dropbox (Old)\TanayLMIS\LMIS\TanayBasicDatav20\Data\Assignment.csdb
+<File>          PFFFILE=
+<File>          REPORT_FILE=
+
+Date            Dec 26, 2018
+Start Time      23:37:01
+End Time        23:37:05
+
+CSPRO Process Summary
+
+CSPRO Executor Normal End
+--------------------------------------------------------------------------------
+Application     C:\Users\Cristina\Dropbox (Old)\TanayLMIS\LMIS\TanayBasicDatav20\Menu\Menu.ent
+Type            ENTRY
+Input Data      <<Empty>>
+External        TBD_COUNTRY_DICT=<<Text File>> C:\Users\Cristina\Dropbox (Old)\TanayLMIS\LMIS\TanayBasicDatav20\Data\Country.dat
+External        TBD_INHABITANT_DICT=<<CSPro DB>> C:\Users\Cristina\Dropbox (Old)\TanayLMIS\LMIS\TanayBasicDatav20\Data\Population.csdb
+External        TBD_STAFF_DICT=<<CSPro DB>> C:\Users\Cristina\Dropbox (Old)\TanayLMIS\LMIS\TanayBasicDatav20\Data\Staff.csdb
+External        TBD_GEO_DICT=<<CSPro DB>> C:\Users\Cristina\Dropbox (Old)\TanayLMIS\LMIS\TanayBasicDatav20\Data\Geocode.csdb
+External        TBD_ASSIGNMENTS_DICT=<<CSPro DB>> C:\Users\Cristina\Dropbox (Old)\TanayLMIS\LMIS\TanayBasicDatav20\Data\Assignment.csdb
+<File>          PFFFILE=
+<File>          REPORT_FILE=
+
+Date            Dec 26, 2018
+Start Time      23:37:18
+End Time        23:37:24
+
+CSPRO Process Summary
+
+User unnumbered messages:
+
+   Line    Freq  Pct.  Message text                                        Denom
+   ----    ----  ----  ------------                                        -----
+   1224       1    -   Are you sure that you want to add a household num       -
+
+CSPRO Executor Normal End
+--------------------------------------------------------------------------------
+Application     C:\Users\Cristina\Dropbox (Old)\TanayLMIS\LMIS\TanayBasicDatav20\Menu\Menu.ent
+Type            ENTRY
+Input Data      <<Empty>>
+External        TBD_COUNTRY_DICT=<<Text File>> C:\Users\Cristina\Dropbox (Old)\TanayLMIS\LMIS\TanayBasicDatav20\Data\Country.dat
+External        TBD_INHABITANT_DICT=<<CSPro DB>> C:\Users\Cristina\Dropbox (Old)\TanayLMIS\LMIS\TanayBasicDatav20\Data\Population.csdb
+External        TBD_STAFF_DICT=<<CSPro DB>> C:\Users\Cristina\Dropbox (Old)\TanayLMIS\LMIS\TanayBasicDatav20\Data\Staff.csdb
+External        TBD_GEO_DICT=<<CSPro DB>> C:\Users\Cristina\Dropbox (Old)\TanayLMIS\LMIS\TanayBasicDatav20\Data\Geocode.csdb
+External        TBD_ASSIGNMENTS_DICT=<<CSPro DB>> C:\Users\Cristina\Dropbox (Old)\TanayLMIS\LMIS\TanayBasicDatav20\Data\Assignment.csdb
+<File>          PFFFILE=
+<File>          REPORT_FILE=
+
+Date            Dec 26, 2018
+Start Time      23:38:06
+End Time        23:38:11
+
+CSPRO Process Summary
+
+User unnumbered messages:
+
+   Line    Freq  Pct.  Message text                                        Denom
+   ----    ----  ----  ------------                                        -----
+   1224       1    -   Are you sure that you want to add a household num       -
+
+CSPRO Executor Normal End
+--------------------------------------------------------------------------------
+Application     C:\Users\Cristina\Dropbox (Old)\TanayLMIS\LMIS\TanayBasicDatav20\Menu\Menu.ent
+Type            ENTRY
+Input Data      <<Empty>>
+External        TBD_COUNTRY_DICT=<<Text File>> C:\Users\Cristina\Dropbox (Old)\TanayLMIS\LMIS\TanayBasicDatav20\Data\Country.dat
+External        TBD_INHABITANT_DICT=<<CSPro DB>> C:\Users\Cristina\Dropbox (Old)\TanayLMIS\LMIS\TanayBasicDatav20\Data\Population.csdb
+External        TBD_STAFF_DICT=<<CSPro DB>> C:\Users\Cristina\Dropbox (Old)\TanayLMIS\LMIS\TanayBasicDatav20\Data\Staff.csdb
+External        TBD_GEO_DICT=<<CSPro DB>> C:\Users\Cristina\Dropbox (Old)\TanayLMIS\LMIS\TanayBasicDatav20\Data\Geocode.csdb
+External        TBD_ASSIGNMENTS_DICT=<<CSPro DB>> C:\Users\Cristina\Dropbox (Old)\TanayLMIS\LMIS\TanayBasicDatav20\Data\Assignment.csdb
+<File>          PFFFILE=
+<File>          REPORT_FILE=
+
+Date            Dec 26, 2018
+Start Time      23:39:23
+End Time        23:41:01
+
+CSPRO Process Summary
+
+User unnumbered messages:
+
+   Line    Freq  Pct.  Message text                                        Denom
+   ----    ----  ----  ------------                                        -----
+    683       2    -   Confirm that %06d is the correct code                   -
+   1224       1    -   Are you sure that you want to add a household num       -
+   1393       1    -   %s successfully added as an interviewer                 -
+   1537       1    -   Are you sure you want to assign %s to %s?               -
+   1555       1    -   %s successfully assigned to %s                          -
+
+CSPRO Executor Normal End
+--------------------------------------------------------------------------------
+Application     C:\Users\Cristina\Dropbox (Old)\TanayLMIS\LMIS\TanayBasicDatav20\Menu\Menu.ent
+Type            ENTRY
+Input Data      <<Empty>>
+External        TBD_COUNTRY_DICT=<<Text File>> C:\Users\Cristina\Dropbox (Old)\TanayLMIS\LMIS\TanayBasicDatav20\Data\Country.dat
+External        TBD_INHABITANT_DICT=<<CSPro DB>> C:\Users\Cristina\Dropbox (Old)\TanayLMIS\LMIS\TanayBasicDatav20\Data\Population.csdb
+External        TBD_STAFF_DICT=<<CSPro DB>> C:\Users\Cristina\Dropbox (Old)\TanayLMIS\LMIS\TanayBasicDatav20\Data\Staff.csdb
+External        TBD_GEO_DICT=<<CSPro DB>> C:\Users\Cristina\Dropbox (Old)\TanayLMIS\LMIS\TanayBasicDatav20\Data\Geocode.csdb
+External        TBD_ASSIGNMENTS_DICT=<<CSPro DB>> C:\Users\Cristina\Dropbox (Old)\TanayLMIS\LMIS\TanayBasicDatav20\Data\Assignment.csdb
+<File>          PFFFILE=
+<File>          REPORT_FILE=
+
+Date            Dec 26, 2018
+Start Time      23:43:47
+End Time        23:43:51
+
+CSPRO Process Summary
+
+User unnumbered messages:
+
+   Line    Freq  Pct.  Message text                                        Denom
+   ----    ----  ----  ------------                                        -----
+   1224       1    -   Are you sure that you want to add a household num       -
+
+CSPRO Executor Normal End
+--------------------------------------------------------------------------------
+Application     C:\Users\Cristina\Dropbox (Old)\TanayLMIS\LMIS\TanayBasicDatav20\Menu\Menu.ent
+Type            ENTRY
+Input Data      <<Empty>>
+External        TBD_COUNTRY_DICT=<<Text File>> C:\Users\Cristina\Dropbox (Old)\TanayLMIS\LMIS\TanayBasicDatav20\Data\Country.dat
+External        TBD_INHABITANT_DICT=<<CSPro DB>> C:\Users\Cristina\Dropbox (Old)\TanayLMIS\LMIS\TanayBasicDatav20\Data\Population.csdb
+External        TBD_STAFF_DICT=<<CSPro DB>> C:\Users\Cristina\Dropbox (Old)\TanayLMIS\LMIS\TanayBasicDatav20\Data\Staff.csdb
+External        TBD_GEO_DICT=<<CSPro DB>> C:\Users\Cristina\Dropbox (Old)\TanayLMIS\LMIS\TanayBasicDatav20\Data\Geocode.csdb
+External        TBD_ASSIGNMENTS_DICT=<<CSPro DB>> C:\Users\Cristina\Dropbox (Old)\TanayLMIS\LMIS\TanayBasicDatav20\Data\Assignment.csdb
+<File>          PFFFILE=
+<File>          REPORT_FILE=
+
+Date            Dec 26, 2018
+Start Time      23:45:41
+End Time        23:45:46
+
+CSPRO Process Summary
+
+CSPRO Executor Normal End
+--------------------------------------------------------------------------------
+Application     C:\Users\Cristina\Dropbox (Old)\TanayLMIS\LMIS\TanayBasicDatav20\Menu\Menu.ent
+Type            ENTRY
+Input Data      <<Empty>>
+External        TBD_COUNTRY_DICT=<<Text File>> C:\Users\Cristina\Dropbox (Old)\TanayLMIS\LMIS\TanayBasicDatav20\Data\Country.dat
+External        TBD_INHABITANT_DICT=<<CSPro DB>> C:\Users\Cristina\Dropbox (Old)\TanayLMIS\LMIS\TanayBasicDatav20\Data\Population.csdb
+External        TBD_STAFF_DICT=<<CSPro DB>> C:\Users\Cristina\Dropbox (Old)\TanayLMIS\LMIS\TanayBasicDatav20\Data\Staff.csdb
+External        TBD_GEO_DICT=<<CSPro DB>> C:\Users\Cristina\Dropbox (Old)\TanayLMIS\LMIS\TanayBasicDatav20\Data\Geocode.csdb
+External        TBD_ASSIGNMENTS_DICT=<<CSPro DB>> C:\Users\Cristina\Dropbox (Old)\TanayLMIS\LMIS\TanayBasicDatav20\Data\Assignment.csdb
+<File>          PFFFILE=
+<File>          REPORT_FILE=
+
+Date            Dec 26, 2018
+Start Time      23:46:45
+End Time        23:46:50
+
+CSPRO Process Summary
+
+User unnumbered messages:
+
+   Line    Freq  Pct.  Message text                                        Denom
+   ----    ----  ----  ------------                                        -----
+   1224       1    -   Are you sure that you want to add a household num       -
+
+CSPRO Executor Normal End
+--------------------------------------------------------------------------------
+Application     C:\Users\Cristina\Dropbox (Old)\TanayLMIS\LMIS\TanayBasicDatav20\Menu\Menu.ent
+Type            ENTRY
+Input Data      <<Empty>>
+External        TBD_COUNTRY_DICT=<<Text File>> C:\Users\Cristina\Dropbox (Old)\TanayLMIS\LMIS\TanayBasicDatav20\Data\Country.dat
+External        TBD_INHABITANT_DICT=<<CSPro DB>> C:\Users\Cristina\Dropbox (Old)\TanayLMIS\LMIS\TanayBasicDatav20\Data\Population.csdb
+External        TBD_STAFF_DICT=<<CSPro DB>> C:\Users\Cristina\Dropbox (Old)\TanayLMIS\LMIS\TanayBasicDatav20\Data\Staff.csdb
+External        TBD_GEO_DICT=<<CSPro DB>> C:\Users\Cristina\Dropbox (Old)\TanayLMIS\LMIS\TanayBasicDatav20\Data\Geocode.csdb
+External        TBD_ASSIGNMENTS_DICT=<<CSPro DB>> C:\Users\Cristina\Dropbox (Old)\TanayLMIS\LMIS\TanayBasicDatav20\Data\Assignment.csdb
+<File>          PFFFILE=
+<File>          REPORT_FILE=
+
+Date            Dec 26, 2018
+Start Time      23:50:43
+End Time        23:50:48
+
+CSPRO Process Summary
+
+User unnumbered messages:
+
+   Line    Freq  Pct.  Message text                                        Denom
+   ----    ----  ----  ------------                                        -----
+   1224       1    -   Are you sure that you want to add a household num       -
+
+CSPRO Executor Normal End
+--------------------------------------------------------------------------------
+Application     C:\Users\Cristina\Dropbox (Old)\TanayLMIS\LMIS\TanayBasicDatav20\Menu\Menu.ent
+Type            ENTRY
+Input Data      <<Empty>>
+External        TBD_COUNTRY_DICT=<<Text File>> C:\Users\Cristina\Dropbox (Old)\TanayLMIS\LMIS\TanayBasicDatav20\Data\Country.dat
+External        TBD_INHABITANT_DICT=<<CSPro DB>> C:\Users\Cristina\Dropbox (Old)\TanayLMIS\LMIS\TanayBasicDatav20\Data\Population.csdb
+External        TBD_STAFF_DICT=<<CSPro DB>> C:\Users\Cristina\Dropbox (Old)\TanayLMIS\LMIS\TanayBasicDatav20\Data\Staff.csdb
+External        TBD_GEO_DICT=<<CSPro DB>> C:\Users\Cristina\Dropbox (Old)\TanayLMIS\LMIS\TanayBasicDatav20\Data\Geocode.csdb
+External        TBD_ASSIGNMENTS_DICT=<<CSPro DB>> C:\Users\Cristina\Dropbox (Old)\TanayLMIS\LMIS\TanayBasicDatav20\Data\Assignment.csdb
+<File>          PFFFILE=
+<File>          REPORT_FILE=
+
+Date            Dec 26, 2018
+Start Time      23:53:08
+End Time        23:53:14
+
+CSPRO Process Summary
+
+User unnumbered messages:
+
+   Line    Freq  Pct.  Message text                                        Denom
+   ----    ----  ----  ------------                                        -----
+   1224       1    -   Are you sure that you want to add a household num       -
+
+CSPRO Executor Normal End
+--------------------------------------------------------------------------------
+Application     C:\Users\Cristina\Dropbox (Old)\TanayLMIS\LMIS\TanayBasicDatav20\Menu\Menu.ent
+Type            ENTRY
+Input Data      <<Empty>>
+External        TBD_COUNTRY_DICT=<<Text File>> C:\Users\Cristina\Dropbox (Old)\TanayLMIS\LMIS\TanayBasicDatav20\Data\Country.dat
+External        TBD_INHABITANT_DICT=<<CSPro DB>> C:\Users\Cristina\Dropbox (Old)\TanayLMIS\LMIS\TanayBasicDatav20\Data\Population.csdb
+External        TBD_STAFF_DICT=<<CSPro DB>> C:\Users\Cristina\Dropbox (Old)\TanayLMIS\LMIS\TanayBasicDatav20\Data\Staff.csdb
+External        TBD_GEO_DICT=<<CSPro DB>> C:\Users\Cristina\Dropbox (Old)\TanayLMIS\LMIS\TanayBasicDatav20\Data\Geocode.csdb
+External        TBD_ASSIGNMENTS_DICT=<<CSPro DB>> C:\Users\Cristina\Dropbox (Old)\TanayLMIS\LMIS\TanayBasicDatav20\Data\Assignment.csdb
+<File>          PFFFILE=
+<File>          REPORT_FILE=
+
+Date            Dec 27, 2018
+Start Time      00:15:48
+End Time        00:16:07
+
+CSPRO Process Summary
+
+User unnumbered messages:
+
+   Line    Freq  Pct.  Message text                                        Denom
+   ----    ----  ----  ------------                                        -----
+   1224       1    -   Are you sure that you want to add a household num       -
+
+CSPRO Executor Normal End
+--------------------------------------------------------------------------------
+Application     C:\Users\Cristina\Dropbox (Old)\TanayLMIS\LMIS\TanayBasicDatav20\Menu\Menu.ent
+Type            ENTRY
+Input Data      <<Empty>>
+External        TBD_COUNTRY_DICT=<<Text File>> C:\Users\Cristina\Dropbox (Old)\TanayLMIS\LMIS\TanayBasicDatav20\Data\Country.dat
+External        TBD_INHABITANT_DICT=<<CSPro DB>> C:\Users\Cristina\Dropbox (Old)\TanayLMIS\LMIS\TanayBasicDatav20\Data\Population.csdb
+External        TBD_STAFF_DICT=<<CSPro DB>> C:\Users\Cristina\Dropbox (Old)\TanayLMIS\LMIS\TanayBasicDatav20\Data\Staff.csdb
+External        TBD_GEO_DICT=<<CSPro DB>> C:\Users\Cristina\Dropbox (Old)\TanayLMIS\LMIS\TanayBasicDatav20\Data\Geocode.csdb
+External        TBD_ASSIGNMENTS_DICT=<<CSPro DB>> C:\Users\Cristina\Dropbox (Old)\TanayLMIS\LMIS\TanayBasicDatav20\Data\Assignment.csdb
+<File>          PFFFILE=
+<File>          REPORT_FILE=
+
+Date            Dec 27, 2018
+Start Time      00:27:55
+End Time        00:27:58
+
+CSPRO Process Summary
+
+CSPRO Executor Normal End
+--------------------------------------------------------------------------------
+Application     C:\Users\Cristina\Dropbox (Old)\TanayLMIS\LMIS\TanayBasicDatav20\Menu\Menu.ent
+Type            ENTRY
+Input Data      <<Empty>>
+External        TBD_COUNTRY_DICT=<<Text File>> C:\Users\Cristina\Dropbox (Old)\TanayLMIS\LMIS\TanayBasicDatav20\Data\Country.dat
+External        TBD_INHABITANT_DICT=<<CSPro DB>> C:\Users\Cristina\Dropbox (Old)\TanayLMIS\LMIS\TanayBasicDatav20\Data\Population.csdb
+External        TBD_STAFF_DICT=<<CSPro DB>> C:\Users\Cristina\Dropbox (Old)\TanayLMIS\LMIS\TanayBasicDatav20\Data\Staff.csdb
+External        TBD_GEO_DICT=<<CSPro DB>> C:\Users\Cristina\Dropbox (Old)\TanayLMIS\LMIS\TanayBasicDatav20\Data\Geocode.csdb
+External        TBD_ASSIGNMENTS_DICT=<<CSPro DB>> C:\Users\Cristina\Dropbox (Old)\TanayLMIS\LMIS\TanayBasicDatav20\Data\Assignment.csdb
+<File>          PFFFILE=
+<File>          REPORT_FILE=
+
+Date            Dec 27, 2018
+Start Time      00:40:16
+End Time        00:40:22
+
+CSPRO Process Summary
+
+User unnumbered messages:
+
+   Line    Freq  Pct.  Message text                                        Denom
+   ----    ----  ----  ------------                                        -----
+   1224       1    -   Are you sure that you want to add a household num       -
+
+CSPRO Executor Normal End
+--------------------------------------------------------------------------------
+Application     C:\Users\Cristina\Dropbox (Old)\TanayLMIS\LMIS\TanayBasicDatav20\Menu\Menu.ent
+Type            ENTRY
+Input Data      <<Empty>>
+External        TBD_COUNTRY_DICT=<<Text File>> C:\Users\Cristina\Dropbox (Old)\TanayLMIS\LMIS\TanayBasicDatav20\Data\Country.dat
+External        TBD_INHABITANT_DICT=<<CSPro DB>> C:\Users\Cristina\Dropbox (Old)\TanayLMIS\LMIS\TanayBasicDatav20\Data\Population.csdb
+External        TBD_STAFF_DICT=<<CSPro DB>> C:\Users\Cristina\Dropbox (Old)\TanayLMIS\LMIS\TanayBasicDatav20\Data\Staff.csdb
+External        TBD_GEO_DICT=<<CSPro DB>> C:\Users\Cristina\Dropbox (Old)\TanayLMIS\LMIS\TanayBasicDatav20\Data\Geocode.csdb
+External        TBD_ASSIGNMENTS_DICT=<<CSPro DB>> C:\Users\Cristina\Dropbox (Old)\TanayLMIS\LMIS\TanayBasicDatav20\Data\Assignment.csdb
+<File>          PFFFILE=
+<File>          REPORT_FILE=
+
+Date            Dec 27, 2018
+Start Time      00:41:38
+End Time        00:41:43
+
+CSPRO Process Summary
+
+CSPRO Executor Normal End
+--------------------------------------------------------------------------------
